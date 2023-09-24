@@ -1,0 +1,17 @@
+<div class="container mt-4">
+  <h2 class="mb-4">Latest Blog Posts</h2>
+  <div class="row">
+    <div class="col-md-6" *ngFor="let post of blogPosts">
+      <div class="card mb-4">
+        <img [src]="post.image" class="card-img-top" alt="Post Image" style="max-width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title">{{ post.title }}</h5>
+          <p class="card-text">{{ post.content }}</p>
+          <p class="card-text"><small class="text-muted">Posted on: {{ post.postedDate }}</small></p>
+          <p class="card-text"><small class="text-muted">Type: {{ post.type }}</small></p>
+          <a [href]="post.link" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

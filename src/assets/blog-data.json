@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Software Development Life Cycle (SDLC)",
+    "content": "Learn about the various phases of the Software Development Life Cycle and how it impacts software engineering projects.",
+    "postedDate": "2023-09-24",
+    "image": "https://i0.wp.com/melsatar.blog/wp-content/uploads/2012/03/sdlc.png?fit=830%2C374&ssl=1",
+    "type": "Software Engineering"
+  },
+  {
+    "id": 2,
+    "title": "Best Practices for Code Version Control with Git",
+    "content": "Discover essential Git best practices for efficient collaboration and version control in software development.",
+    "postedDate": "2023-09-25",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png",
+    "type": "Version Control"
+  },
+  {
+    "id": 3,
+    "title": "Optimizing Database Queries for High Performance",
+    "content": "Learn how to optimize SQL queries to ensure your database-driven applications run smoothly and efficiently.",
+    "postedDate": "2023-09-26",
+    "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220331131027/Best-Practices-For-SQL-Query-Optimizations.png",
+    "type": "Database Management"
+  },
+  {
+    "id": 4,
+    "title": "Introduction to DevOps: Bridging the Gap Between Development and Operations",
+    "content": "Explore the fundamentals of DevOps and how it improves software delivery and operations processes.",
+    "postedDate": "2023-09-27",
+    "image": "https://orangematter.solarwinds.com/wp-content/uploads/2022/03/DevOps-lifecycle-capabilities-1024x621.png",
+    "type": "DevOps"
+  }
+]

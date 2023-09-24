@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "E-commerce Website",
+        "description": "Developed a full-fledged e-commerce website with user authentication, product catalog, and secure payment processing.",
+        "image": "https://assets.materialup.com/uploads/dbb92967-5586-4eb8-9675-f0b3c47ff565/preview.png",
+        "github_link": "https://github.com/yourusername/project1",
+        "host_link": "https://www.project1.com"
+    },
+    {
+        "id": 2,
+        "title": "Mobile Task Manager App",
+        "description": "Designed and built a mobile task manager application for both Android and iOS platforms with real-time synchronization.",
+        "image": "https://cdn.dribbble.com/users/1615584/screenshots/15571949/media/7e95f0fddb7957220033569815613b10.jpg?resize=400x300&vertical=center",
+        "github_link": "https://github.com/yourusername/project2",
+        "host_link": "https://www.project2app.com"
+    },
+    {
+        "id": 3,
+        "title": "Data Analysis Dashboard",
+        "description": "Created an interactive data analysis dashboard that visualizes complex data sets for business intelligence.",
+        "image": "https://media.whatagraph.com/32_Google_analytics_dashboard_afe510a67a.png?width=992",
+        "github_link": "https://github.com/yourusername/project3",
+        "host_link": "https://www.project3dashboard.com"
+    }
+]
