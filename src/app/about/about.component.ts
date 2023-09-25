@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
   downloadCV(): void {
-    const cvFileName = 'your-cv-file.pdf'; // Replace with your CV file name
+    const cvFileName = 'resume.pdf';
     const cvFilePath = `/assets/${cvFileName}`;
 
     const a = document.createElement('a');
