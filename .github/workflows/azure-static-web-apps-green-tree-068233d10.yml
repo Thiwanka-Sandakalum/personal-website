@@ -19,8 +19,6 @@ jobs:
         with:
           submodules: true
           
-      - name: Copy routes.json
-        run: cp routes.json dist/personal-website/routes.json 
         
       - name: Build And Deploy
         id: builddeploy
@@ -34,6 +32,11 @@ jobs:
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "dist/personal-website" # Built app content directory - optional
+
+          
+      - name: Copy routes.json
+        run: cp routes.json dist/personal-website/routes.json 
+       
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
