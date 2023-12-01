@@ -1,11 +1,11 @@
 [
     {
         "id": 1,
-        "title": "E-commerce Website",
-        "description": "Developed a full-fledged e-commerce website with user authentication, product catalog, and secure payment processing.",
-        "image": "https://assets.materialup.com/uploads/dbb92967-5586-4eb8-9675-f0b3c47ff565/preview.png",
-        "github_link": "https://github.com/yourusername/project1",
-        "host_link": "https://www.project1.com"
+        "title": "Telegram Bot",
+        "description": "Crafted a dynamic Telegram bot using Node.js that seamlessly integrates Azure Bing services for real-time news updates, fetches current weather details, and keeps users in the loop with trending movies. This multifunctional bot not only showcases technical prowess but also offers a user-friendly experience, providing a personalized touch to news and entertainment. Explore the code on GitHub and interact with the bot live!",
+        "image": "https://www.addtelegrammember.com/wp-content/webpc-passthru.php?src=https://www.addtelegrammember.com/wp-content/uploads/2020/12/Telegram-Bot-1200x600.jpg&nocache=1",
+        "github_link": "https://github.com/Thiwanka-Sandakalum/uwu-bot.git",
+        "host_link": "https://t.me/info_Providerbot"
     },
     {
         "id": 2,
