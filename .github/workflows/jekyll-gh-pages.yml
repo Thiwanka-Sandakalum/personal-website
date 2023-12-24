@@ -1,58 +1,65 @@
-name: Angular GitHub CI
+# Sample workflow for building and deploying an Angular app to GitHub Pages
+#
+# To get started with Angular, see: https://angular.io/guide/setup-local
+#
+name: Deploy Angular app to Pages
 
 on:
+  # Runs on pushes targeting the default branch
   push:
     branches:
-      - main
+      - "main"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  ci:
+  # Build job
+  build:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x]
-
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Cache node modules
-        id: cache-nodemodules
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-node-modules
+          node-version: "18"  # Adjust version as needed
+      - name: Install Angular CLI
+        run: npm install -g @angular/cli
+      - name: Install dependencies
+        run: npm install
+      - name: Build Angular app
+        run: ng build --prod
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
         with:
-          # caching node_modules
-          path: node_modules
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+          name: dist
+          path: ./dist
 
-      - name: Install Dependencies
-        if: steps.cache-nodemodules.outputs.cache-hit != 'true'
-        run: |
-          npm ci
-          
-      - name: Build
-        run: |
-          npm run build -- --prod
-
-      - name: Lint
-        run: |
-          npm run lint
-
-      - name: Test
-        run: |
-          npm run test -- --prod
-
-      - name: E2E Tests
-        run: |
-          # Add commands for end-to-end tests if applicable
-          # Example: npm run e2e
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          branch: gh-pages  # Adjust branch name as needed
+          folder: dist
+          token: ${{ secrets.GITHUB_TOKEN }}
