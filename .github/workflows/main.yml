@@ -1,51 +1,73 @@
-name: CI/CD
+name: Build and Deploy
 
+# Trigger the workflow on push events to the main branch
 on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
+# Define the jobs to be executed in the workflow
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+      # Check out the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      # Set up Node.js environment
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
+      # Install project dependencies
       - name: Install Dependencies
         run: npm install
 
+      # Build Angular App
       - name: Build Angular App
         run: npm run build
 
   deploy:
     runs-on: ubuntu-latest
 
+    # Define the dependency on the 'build' job
     needs: build
 
     steps:
+      # Check out the repository again
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      # Set up Node.js environment
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
+      # Install dependencies for deployment
       - name: Install Dependencies
         run: npm install
 
+      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         run: |
           npx ngh --dir=dist/personal-website
         env:
           CI: true
+
+# Define additional configurations and options for the action
+permissions:
+  contents: write # Allow write permission to GITHUB_TOKEN to commit to deploy branch.
+
+# Configuration options for the Angular Deploy gh-pages Actions
+env:
+  angular_project_dir: "./" # The directory of the Angular project
+  build_configuration: "production" # The build environment for the app
+  base_href: "/" # The base-href for the project
+  deploy_branch: "gh-pages" # The branch to deploy to
+  angular_dist_build_folder: "dist" # The folder where ng build provides its output
+  run_lint: "false" # Run ng lint command
+  github_access_token: ${{ secrets.GITHUB_TOKEN }} # GitHub personal access token stored as a secret
