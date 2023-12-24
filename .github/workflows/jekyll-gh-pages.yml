@@ -41,12 +41,14 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build Angular app
-        run: ng build --configuration=production
+        run: ng build --configuration=production --outputPath=dist
+
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
           name: dist
-          path: ${{ github.workspace }}/dist
+          path: ./dist
+
 
   # Deployment job
   deploy:
