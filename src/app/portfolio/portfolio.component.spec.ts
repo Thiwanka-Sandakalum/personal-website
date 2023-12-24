@@ -16,6 +16,7 @@ describe('PortfolioComponent', () => {
   });
 
   it('should create', () => {
+    
     expect(component).toBeTruthy();
   });
 });

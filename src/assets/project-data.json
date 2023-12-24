@@ -1,26 +1,97 @@
 [
     {
         "id": 1,
-        "title": "Telegram Bot",
-        "description": "Crafted a dynamic Telegram bot using Node.js that seamlessly integrates Azure Bing services for real-time news updates, fetches current weather details, and keeps users in the loop with trending movies. This multifunctional bot not only showcases technical prowess but also offers a user-friendly experience, providing a personalized touch to news and entertainment. Explore the code on GitHub and interact with the bot live!",
+        "title": "Personal Telegram Bot",
+        "description": "This is a Telegram bot for my personal use cases.It provide  real-time news retrieval, integrates live weather updates, and fetches trending movies. Implemented RESTful APIs, asynchronous programming, and data parsing for a seamless user experience.",
         "image": "https://www.addtelegrammember.com/wp-content/webpc-passthru.php?src=https://www.addtelegrammember.com/wp-content/uploads/2020/12/Telegram-Bot-1200x600.jpg&nocache=1",
         "github_link": "https://github.com/Thiwanka-Sandakalum/uwu-bot.git",
-        "host_link": "https://t.me/info_Providerbot"
+        "host_link": "https://t.me/info_Providerbot",
+        "technologies": [
+            "Nodejs",
+            "JavaScript",
+            "Azure Bing service"
+        ]
     },
     {
         "id": 2,
-        "title": "Mobile Task Manager App",
-        "description": "Designed and built a mobile task manager application for both Android and iOS platforms with real-time synchronization.",
-        "image": "https://cdn.dribbble.com/users/1615584/screenshots/15571949/media/7e95f0fddb7957220033569815613b10.jpg?resize=400x300&vertical=center",
-        "github_link": "https://github.com/yourusername/project2",
-        "host_link": "https://www.project2app.com"
+        "title": "Web app + Dashboard for restaurant",
+        "description": "This application can managing orders and menus in a restaurant. It includes a client-front-end and a dashboard for shop owners to handle orders and menus.",
+        "image": "https://i.pinimg.com/736x/be/3a/53/be3a5374058c4584201f97ba9004a8d5.jpg",
+        "github_link": "https://github.com/Thiwanka-Sandakalum/restaurant-App.git",
+        "host_link": "#",
+        "technologies": [
+            "Nodejs",
+            "Azure App Service",
+            "Azure SQL",
+            "winston",
+            "sequlize",
+            "Angular",
+            "Bootstrap"
+        ]
     },
     {
         "id": 3,
-        "title": "Data Analysis Dashboard",
-        "description": "Created an interactive data analysis dashboard that visualizes complex data sets for business intelligence.",
-        "image": "https://media.whatagraph.com/32_Google_analytics_dashboard_afe510a67a.png?width=992",
-        "github_link": "https://github.com/yourusername/project3",
-        "host_link": "https://www.project3dashboard.com"
+        "title": "Bus booking Application",
+        "description": "This application can book a bus for each time slot do you want and you can register your bus in this app.and you can manage your can find your bus in a dashboard",
+        "image": "https://img.freepik.com/premium-vector/city-bus-with-map-application-mobile-phone_81534-1761.jpg",
+        "github_link": "https://github.com/Thiwanka-Sandakalum/busBooking.API/tree/main",
+        "host_link": "https://github.com/Thiwanka-Sandakalum/busBooking.API/tree/main",
+        "technologies": [
+            "Nodejs",
+            "RestAPI",
+            "Azure App Service",
+            "Azure SQL",
+            "SQLite",
+            "User Authentication and Authorization",
+            "sequlize",
+            "Angular",
+            "JWT Token"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "University Bot",
+        "description": "This is a Telegram Bot.It provide all information about university and send notification about lectures",
+        "image": "https://botostore.com/netcat_files/6/7/preview_152786_1602785485.jpg",
+        "github_link": "https://github.com/Thiwanka-Sandakalum/uwu-bot",
+        "host_link": "https://github.com/Thiwanka-Sandakalum/uwu-bot",
+        "technologies": [
+            "Nodejs",
+            "prisma",
+            "SQLite",
+            "node-schedule",
+            "expressJS"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Zoom + Telegram Automation",
+        "description": "This is a custom application for automation workflow with zoom and Telegram.after upload recording to zoom then auto upload video to telegram group",
+        "image": "https://app.integrately.com/i/integrations/colored-border/zoom_telegram_integrations.png",
+        "github_link": "https://github.com/Thiwanka-Sandakalum/zoom-telegram",
+        "host_link": "https://github.com/Thiwanka-Sandakalum/zoom-telegram",
+        "technologies": [
+            "Nodejs",
+            "Zoom API",
+            "Telegram API",
+            "Winston (Logger)",
+            "SQLite",
+            "expressJS"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "University Student details Finder",
+        "description": "This web app provide all information about our collage student. Anyone can search you course,university related student",
+        "image": "https://www.runpto.com/wp-content/uploads/2021/09/image-112-1024x615.png",
+        "github_link": "https://github.com/Thiwanka-Sandakalum/University-course-friends-finder",
+        "host_link": "https://github.com/Thiwanka-Sandakalum/zoom-telegram",
+        "technologies": [
+            "Nodejs",
+            "expressJS",
+            "ReactJS",
+            "Winston (Logger)",
+            "SQLite"
+        ]
     }
 ]
