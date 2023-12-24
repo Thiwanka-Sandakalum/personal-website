@@ -60,12 +60,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Create gh-pages branch
+        run: git checkout -b gh-pages && ls
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           branch: gh-pages  # Adjust branch name as needed
-          run: ls
-          folder: personal-website
+          folder: dist
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Debug - List contents of deployment directory
-        run: ls -R personal-website
+  
