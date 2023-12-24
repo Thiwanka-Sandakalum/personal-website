@@ -40,8 +40,11 @@ jobs:
         run: npm install -g @angular/cli
       - name: Install dependencies
         run: npm install
+              ls
       - name: Build Angular app
-        run: ng build --configuration=production --outputPath=dist
+        run: ng build --configuration=production
+            ls
+
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2
