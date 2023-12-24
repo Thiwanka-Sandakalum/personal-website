@@ -47,7 +47,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: dist
+          name: personal-website
           path: ./dist
 
 
@@ -67,3 +67,5 @@ jobs:
           run: ls
           folder: personal-website
           token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Debug - List contents of deployment directory
+        run: ls -R personal-website
