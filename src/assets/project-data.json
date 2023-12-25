@@ -93,5 +93,17 @@
             "Winston (Logger)",
             "SQLite"
         ]
+    },
+    {
+        "id": 7,
+        "title": "Transcriber",
+        "description": "This application can transcribe,if you input any audio or video you can genarate text or subtitle.You can transcribe youtube videos and google podcast",
+        "image": "https://aurisai.io/wp-content/uploads/2022/11/what-is-ai-transcription_what-is-ai-transcription_what-is-ai-transcription.png",
+        "github_link": "https://github.com/Thiwanka-Sandakalum/Transcriber",
+        "host_link": "https://github.com/Thiwanka-Sandakalum/Transcriber",
+        "technologies": [
+            "Python",
+            "whisper AI model"
+        ]
     }
 ]
