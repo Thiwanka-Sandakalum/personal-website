@@ -1,0 +1,176 @@
+{
+    "skillCategories": [
+        {
+            "id": 1,
+            "name": "Backend & APIs",
+            "icon": "🚀",
+            "skills": [
+                {
+                    "name": "Python",
+                    "icon": "🐍",
+                    "level": 95,
+                    "experience": "3+ years"
+                },
+                {
+                    "name": "Node.js",
+                    "icon": "🟢",
+                    "level": 90,
+                    "experience": "3+ years"
+                },
+                {
+                    "name": "TypeScript",
+                    "icon": "📘",
+                    "level": 88,
+                    "experience": "2+ years"
+                },
+                {
+                    "name": "FastAPI",
+                    "icon": "🚀",
+                    "level": 92,
+                    "experience": "2+ years"
+                },
+                {
+                    "name": "GraphQL",
+                    "icon": "🔗",
+                    "level": 85,
+                    "experience": "2+ years"
+                },
+                {
+                    "name": "REST APIs",
+                    "icon": "⚡",
+                    "level": 95,
+                    "experience": "3+ years"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Cloud & DevOps",
+            "icon": "☁️",
+            "skills": [
+                {
+                    "name": "Microsoft Azure",
+                    "icon": "☁️",
+                    "level": 90,
+                    "experience": "2+ years"
+                },
+                {
+                    "name": "Choreo WSO2",
+                    "icon": "🌐",
+                    "level": 85,
+                    "experience": "1+ year"
+                },
+                {
+                    "name": "Docker",
+                    "icon": "🐳",
+                    "level": 88,
+                    "experience": "2+ years"
+                },
+                {
+                    "name": "CI/CD",
+                    "icon": "🔧",
+                    "level": 85,
+                    "experience": "2+ years"
+                },
+                {
+                    "name": "Linux",
+                    "icon": "🐧",
+                    "level": 80,
+                    "experience": "3+ years"
+                },
+                {
+                    "name": "NGINX",
+                    "icon": "🌐",
+                    "level": 75,
+                    "experience": "1+ year"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Databases & Messaging",
+            "icon": "🗄️",
+            "skills": [
+                {
+                    "name": "PostgreSQL",
+                    "icon": "🐘",
+                    "level": 90,
+                    "experience": "3+ years"
+                },
+                {
+                    "name": "MySQL",
+                    "icon": "🗄️",
+                    "level": 85,
+                    "experience": "2+ years"
+                },
+                {
+                    "name": "MongoDB",
+                    "icon": "🍃",
+                    "level": 88,
+                    "experience": "2+ years"
+                },
+                {
+                    "name": "Redis",
+                    "icon": "🔴",
+                    "level": 82,
+                    "experience": "2+ years"
+                },
+                {
+                    "name": "RabbitMQ",
+                    "icon": "🐰",
+                    "level": 80,
+                    "experience": "1+ year"
+                },
+                {
+                    "name": "Auth0",
+                    "icon": "🔐",
+                    "level": 85,
+                    "experience": "2+ years"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "AI/ML & Integration",
+            "icon": "🤖",
+            "skills": [
+                {
+                    "name": "LangChain",
+                    "icon": "🦜",
+                    "level": 88,
+                    "experience": "1+ year"
+                },
+                {
+                    "name": "OpenAI APIs",
+                    "icon": "🤖",
+                    "level": 90,
+                    "experience": "1+ year"
+                },
+                {
+                    "name": "Gemini API",
+                    "icon": "💎",
+                    "level": 85,
+                    "experience": "1+ year"
+                },
+                {
+                    "name": "Hugging Face",
+                    "icon": "🤗",
+                    "level": 80,
+                    "experience": "1+ year"
+                },
+                {
+                    "name": "RAG Pipelines",
+                    "icon": "🔍",
+                    "level": 88,
+                    "experience": "1+ year"
+                },
+                {
+                    "name": "React",
+                    "icon": "⚛️",
+                    "level": 85,
+                    "experience": "2+ years"
+                }
+            ]
+        }
+    ]
+}

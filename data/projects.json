@@ -1,0 +1,121 @@
+{
+    "featured": [
+        1,
+        2
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "FinVerse - AI-Powered Financial Marketplace",
+            "shortDescription": "AI-powered platform connecting consumers with financial institutions, featuring ML recommendations and real-time financial advice.",
+            "fullDescription": "An innovative AI-powered financial marketplace that connects consumers with financial institutions, enabling users to compare loans, credit cards, savings accounts, and other financial products from multiple banks and lenders in one centralized platform. Built with cutting-edge AI technologies and deployed on Microsoft Azure.",
+            "image": "assets/images/project1.jpg",
+            "gallery": [
+                "assets/images/projects/finverse/dashboard.jpg",
+                "assets/images/projects/finverse/ai-chat.jpg",
+                "assets/images/projects/finverse/comparison.jpg",
+                "assets/images/projects/finverse/mobile.jpg"
+            ],
+            "category": "AI",
+            "status": "Live",
+            "technologies": [
+                "Next.js",
+                "TypeScript",
+                "React",
+                "TailwindCSS",
+                "Node.js",
+                "Python",
+                "FastAPI",
+                "PostgreSQL",
+                "MongoDB",
+                "LangChain",
+                "Google AI",
+                "Azure",
+                "Docker",
+                "Redis",
+                "RabbitMQ"
+            ],
+            "features": [
+                "🤖 AI-powered chatbot using Google Gemini API + LangChain for real-time financial advice",
+                "🧠 ML recommendation engine with scikit-learn for personalized product suggestions",
+                "📊 Financial marketplace platform with 3 microservices handling 10K+ financial products",
+                "📱 Responsive Next.js frontend with Tailwind, shadcn/ui, and Radix UI",
+                "☁️ Scalable infrastructure on Microsoft Azure with Docker + CI/CD pipelines",
+                "🔒 Secure authentication and data protection with industry standards"
+            ],
+            "achievements": [
+                "Built a financial marketplace platform with 3 microservices handling 10K+ financial products",
+                "Developed an AI-powered chatbot using Google Gemini API + LangChain for real-time financial advice",
+                "Implemented ML recommendation engine with scikit-learn for personalized product suggestions",
+                "Created responsive Next.js frontend with Tailwind, shadcn/ui, and Radix UI",
+                "Deployed scalable infrastructure on Microsoft Azure with Docker + CI/CD pipelines"
+            ],
+            "links": {
+                "demo": "https://app.bankguru.com",
+                "github": "https://github.com/thiwanka-sandakalum/finverse"
+            },
+            "startDate": "2024-01",
+            "endDate": "2024-06",
+            "teamSize": "Solo Project"
+        },
+        {
+            "id": 2,
+            "title": "VidSage - AI-Powered YouTube Video Analysis Platform",
+            "shortDescription": "Transforms YouTube videos into interactive, searchable knowledge bases using advanced NLP and RAG pipelines.",
+            "fullDescription": "A comprehensive AI-powered video analysis platform that transforms YouTube content into interactive, searchable knowledge bases using advanced NLP, RAG (Retrieval-Augmented Generation), and modern UI frameworks. Features dual interfaces and optimized performance with 60% improvement in processing time.",
+            "image": "assets/images/project2.jpg",
+            "gallery": [
+                "assets/images/projects/vidsage/interface.jpg",
+                "assets/images/projects/vidsage/analysis.jpg",
+                "assets/images/projects/vidsage/search.jpg",
+                "assets/images/projects/vidsage/cli.jpg"
+            ],
+            "category": "AI",
+            "status": "Completed",
+            "technologies": [
+                "Python",
+                "LangChain",
+                "PyQt6",
+                "Rich CLI",
+                "OpenAI Whisper",
+                "Chroma DB",
+                "Google Gemini",
+                "FastAPI",
+                "Vector databases"
+            ],
+            "features": [
+                "🎥 AI-driven application that converts YouTube videos into searchable knowledge bases",
+                "🔍 RAG pipeline with Google Gemini, OpenAI Whisper, and Chroma Vector DB",
+                "🖥️ Dual interfaces: PyQt6 GUI + interactive CLI with threaded, real-time processing",
+                "⚡ Optimized performance with intelligent caching, cutting processing time by 60%",
+                "🎯 Advanced NLP processing with automatic transcription and semantic search",
+                "📚 Interactive Q&A system with context-aware responses"
+            ],
+            "achievements": [
+                "Developed an AI-driven application that converts YouTube videos into searchable knowledge bases",
+                "Implemented RAG pipeline with Google Gemini, OpenAI Whisper, and Chroma Vector DB",
+                "Built dual interfaces: PyQt6 GUI + interactive CLI with threaded, real-time processing",
+                "Optimized performance with intelligent caching, cutting processing time by 60%"
+            ],
+            "links": {
+                "demo": "",
+                "github": "https://github.com/thiwanka-sandakalum/vidsage"
+            },
+            "startDate": "2024-03",
+            "endDate": "2024-05",
+            "teamSize": "Solo Project"
+        }
+    ],
+    "filters": [
+        {
+            "id": "all",
+            "name": "All",
+            "count": 2
+        },
+        {
+            "id": "ai",
+            "name": "AI",
+            "count": 2
+        }
+    ]
+}

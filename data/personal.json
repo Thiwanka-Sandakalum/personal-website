@@ -1,0 +1,77 @@
+{
+    "personalInfo": {
+        "name": "Thiwanka Sandakalum",
+        "title": "Cloud-Oriented Software Engineer",
+        "tagline": "I design and deliver scalable backend systems, cloud-native platforms, and AI-powered solutions that drive operational efficiency.",
+        "location": "Colombo, Sri Lanka",
+        "email": "thiwanka2002sandakalum@gmail.com",
+        "phone": "+94 76 904 3770",
+        "profileImage": "assets/images/profile.jpg",
+        "aboutImage": "assets/images/about-profile.jpg",
+        "social": {
+            "github": "https://github.com/thiwanka-sandakalum",
+            "linkedin": "https://linkedin.com/in/thiwanka-sandakalum",
+            "email": "mailto:thiwanka2002sandakalum@gmail.com"
+        },
+        "stats": [
+            {
+                "number": "3+",
+                "label": "Years Experience"
+            },
+            {
+                "number": "10K+",
+                "label": "Products Handled"
+            },
+            {
+                "number": "20%",
+                "label": "Performance Boost"
+            }
+        ]
+    },
+    "about": {
+        "shortBio": "I'm Thiwanka Sandakalum, a passionate Cloud-oriented Software Engineer with expertise in designing and delivering scalable backend systems, distributed microservices, and cloud-native platforms. Based in Colombo, Sri Lanka, I specialize in building secure REST, GraphQL, and gRPC APIs while integrating cutting-edge identity and authentication solutions.",
+        "fullBio": [
+            "My experience spans the full development lifecycle—from architecture and development to deployment, monitoring, and CI/CD automation. I'm particularly skilled in optimizing applications through caching, load balancing, and distributed messaging systems like Redis and RabbitMQ.",
+            "I have a proven track record in e-commerce platforms, back-office systems, and AI-powered solutions, consistently delivering measurable improvements in operational efficiency, system scalability, and user experience. Currently working at OTL Colombo, I've contributed to cross-border e-commerce platforms that have achieved 20% faster order processing and fully automated logistics workflows."
+        ],
+        "highlights": [
+            {
+                "icon": "🚀",
+                "title": "Innovation",
+                "description": "Building AI-powered solutions with LangChain, OpenAI APIs, and RAG pipelines"
+            },
+            {
+                "icon": "☁️",
+                "title": "Cloud Native",
+                "description": "Expertise in Azure, Docker, and microservices architecture"
+            },
+            {
+                "icon": "🔧",
+                "title": "Full Stack",
+                "description": "From backend APIs to React frontends with modern UI frameworks"
+            }
+        ],
+        "hobbies": [
+            {
+                "icon": "🤖",
+                "title": "AI & Machine Learning",
+                "description": "Exploring cutting-edge AI technologies, LangChain, and building intelligent systems"
+            },
+            {
+                "icon": "☁️",
+                "title": "Cloud Architecture",
+                "description": "Designing scalable cloud-native solutions on Azure and modern DevOps practices"
+            },
+            {
+                "icon": "📚",
+                "title": "Tech Learning",
+                "description": "Continuous learning about new frameworks, programming languages, and industry trends"
+            },
+            {
+                "icon": "🚀",
+                "title": "Open Source",
+                "description": "Contributing to open-source projects and sharing knowledge with the developer community"
+            }
+        ]
+    }
+}

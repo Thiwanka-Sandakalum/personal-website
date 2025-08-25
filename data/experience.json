@@ -1,0 +1,105 @@
+{
+    "experience": [
+        {
+            "id": 1,
+            "position": "Software Engineer",
+            "company": "OTL Colombo",
+            "location": "Colombo, Sri Lanka",
+            "startDate": "February 2022",
+            "endDate": "Present",
+            "duration": "2+ years",
+            "type": "work",
+            "description": "Designed, developed, and deployed cloud-native backend services and scalable applications. Built RESTful APIs, GraphQL endpoints, and microservices using Node.js, Express, Python. Implemented secure authentication with RBAC/JWT via Auth0. Delivered cross-border e-commerce platform with 20% faster order processing and fully automated logistics workflow.",
+            "achievements": [
+                "Built RESTful APIs, GraphQL endpoints, and microservices using Node.js, Express, Python",
+                "Integrated Google APIs and OpenAI for enhanced functionality",
+                "Implemented secure authentication with RBAC/JWT via Auth0",
+                "Developed React dashboards with Mantine UI and Redux",
+                "Implemented RabbitMQ messaging and Redis caching",
+                "Containerized services with Docker and deployed on Azure & Choreo WSO2",
+                "Set up CI/CD pipelines using GitHub Actions and NGINX load balancing",
+                "Achieved 20% faster order processing and fully automated logistics workflow"
+            ],
+            "technologies": [
+                "Node.js",
+                "Express",
+                "Python",
+                "TypeScript",
+                "JavaScript",
+                "React",
+                "Redux",
+                "Mantine UI",
+                "FastAPI",
+                "GraphQL",
+                "REST",
+                "Docker",
+                "Azure",
+                "Choreo WSO2",
+                "GitHub Actions",
+                "NGINX",
+                "RabbitMQ",
+                "Redis",
+                "Auth0",
+                "Google APIs",
+                "OpenAI"
+            ]
+        },
+        {
+            "id": 2,
+            "position": "Trainee Full Stack Developer",
+            "company": "University of Moratuwa Sri Lanka",
+            "location": "Moratuwa, Sri Lanka",
+            "startDate": "2022",
+            "endDate": "2022",
+            "duration": "6 months",
+            "type": "training",
+            "description": "Comprehensive training program focusing on full-stack development, modern web technologies, and software engineering best practices.",
+            "achievements": [
+                "Completed intensive full-stack development bootcamp",
+                "Learned modern web technologies and frameworks",
+                "Practiced software engineering best practices",
+                "Built multiple projects using React, Node.js, and databases"
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "MySQL",
+                "Git",
+                "RESTful APIs"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "id": 1,
+            "degree": "Bachelor of Information and Communication Technology",
+            "institution": "UVA Wellassa University of Sri Lanka",
+            "location": "Badulla, Sri Lanka",
+            "startDate": "2021",
+            "endDate": "2025 (Expected)",
+            "duration": "4 years",
+            "type": "education",
+            "description": "Pursuing comprehensive education in ICT with focus on software engineering, cloud computing, and emerging technologies.",
+            "achievements": [
+                "Focus on software engineering and system design",
+                "Cloud computing and distributed systems",
+                "Database management and optimization",
+                "AI/ML and data science fundamentals"
+            ],
+            "technologies": [
+                "Software Engineering",
+                "Database Systems",
+                "Cloud Computing",
+                "AI/ML",
+                "Data Structures",
+                "Algorithms",
+                "System Design"
+            ]
+        }
+    ]
+}
