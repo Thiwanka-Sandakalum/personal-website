@@ -1,5 +1,0 @@
-.navbar-nav .nav-item a.nav-link.active,
-.navbar-nav .nav-item a.nav-link:hover {
-  background-color: #ffc107; /* Yellow background color when active or hovered */
-  color: #333; /* Text color for contrast */
-}

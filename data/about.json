@@ -1,0 +1,640 @@
+{
+    "pageInfo": {
+        "title": "About - Thiwanka Sandakalum | Cloud-Oriented Software Engineer",
+        "description": "Learn more about Thiwanka Sandakalum, a passionate Software Engineer with expertise in web development and software solutions.",
+        "keywords": [
+            "Thiwanka Sandakalum",
+            "Software Engineer",
+            "Cloud Computing",
+            "Full Stack Developer",
+            "Sri Lanka"
+        ]
+    },
+    "hero": {
+        "title": "About Me",
+        "subtitle": "Get to know me better",
+        "profileImage": "../assets/images/profile-about.jpg",
+        "profileAlt": "Thiwanka Sandakalum - Software Engineer"
+    },
+    "aboutSection": {
+        "heading": "Who am I?",
+        "paragraphs": [
+            "I'm Thiwanka Sandakalum, a passionate Cloud-oriented Software Engineer with expertise in designing and delivering scalable backend systems, distributed microservices, and cloud-native platforms. Based in Colombo, Sri Lanka, I specialize in building secure REST, GraphQL, and gRPC APIs while integrating identity and authentication solutions (Auth0, RBAC/JWT).",
+            "My experience spans the full development lifecycle—from architecture and development to deployment, monitoring, and CI/CD automation. I'm particularly skilled in optimizing applications through caching, load balancing, and distributed messaging (Redis, RabbitMQ), ensuring reliability, security, and high performance.",
+            "I have a proven track record in e-commerce platforms, back-office systems, and AI-powered solutions, consistently delivering measurable improvements in operational efficiency, system scalability, and user experience. Adept at managing complex projects from conception to production deployment."
+        ],
+        "resumeLink": "../assets/files/Thiwanka-Sandakalum-Resume.pdf",
+        "resumeText": "Download Resume"
+    },
+    "professionalJourney": {
+        "title": "Professional Journey",
+        "subtitle": "My career path and educational background",
+        "workExperience": {
+            "title": "Work Experience",
+            "experiences": [
+                {
+                    "id": 1,
+                    "position": "Software Engineer",
+                    "company": "OTL Colombo",
+                    "location": "Colombo, Sri Lanka",
+                    "duration": "February 2022 - Present",
+                    "description": "Designed, developed, and deployed cloud-native backend services and scalable applications. Built RESTful APIs, GraphQL endpoints, and microservices using Node.js, Express, Python.",
+                    "achievements": [
+                        "20% faster order processing",
+                        "Automated logistics workflow",
+                        "Cloud-native solutions"
+                    ],
+                    "technologies": [
+                        "Node.js",
+                        "Express",
+                        "Python",
+                        "TypeScript",
+                        "React",
+                        "GraphQL",
+                        "Docker",
+                        "Azure",
+                        "RabbitMQ",
+                        "Redis"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "position": "Trainee Full Stack Developer",
+                    "company": "University of Moratuwa Sri Lanka",
+                    "location": "Moratuwa, Sri Lanka",
+                    "duration": "2022",
+                    "description": "Comprehensive training program focusing on full-stack development, modern web technologies, and software engineering best practices.",
+                    "achievements": [
+                        "Full-stack bootcamp",
+                        "Modern web tech",
+                        "Best practices"
+                    ],
+                    "technologies": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript",
+                        "React",
+                        "Node.js",
+                        "Express",
+                        "MongoDB",
+                        "MySQL"
+                    ]
+                }
+            ]
+        },
+        "education": {
+            "title": "Education",
+            "qualifications": [
+                {
+                    "id": 1,
+                    "degree": "Bachelor of Information and Communication Technology",
+                    "institution": "UVA Wellassa University of Sri Lanka",
+                    "location": "Badulla, Sri Lanka",
+                    "duration": "2021 - 2025 (Expected)",
+                    "description": "Pursuing comprehensive education in ICT with focus on software engineering, cloud computing, and emerging technologies.",
+                    "subjects": [
+                        "Software Engineering",
+                        "Cloud Computing",
+                        "AI/ML",
+                        "System Design"
+                    ]
+                }
+            ]
+        }
+    },
+    "passionsActivities": {
+        "title": "Passions & Activities",
+        "subtitle": "What drives me beyond coding",
+        "passions": [
+            {
+                "id": 1,
+                "icon": "🤖",
+                "title": "Artificial Intelligence",
+                "description": "Building intelligent systems with LangChain, OpenAI APIs, and exploring cutting-edge AI research"
+            },
+            {
+                "id": 2,
+                "icon": "⚽",
+                "title": "Sports & Fitness",
+                "description": "Football enthusiast, swimming, cycling adventures, and maintaining an active lifestyle"
+            },
+            {
+                "id": 3,
+                "icon": "🌱",
+                "title": "Agriculture & Sustainability",
+                "description": "Smart farming solutions, agritech innovations, and sustainable development projects"
+            },
+            {
+                "id": 4,
+                "icon": "👥",
+                "title": "Team Collaboration",
+                "description": "Leading project teams, mentoring, and fostering innovation through collaborative work"
+            },
+            {
+                "id": 5,
+                "icon": "💰",
+                "title": "Fintech",
+                "description": "Financial technology solutions, trading analysis, and blockchain applications"
+            },
+            {
+                "id": 6,
+                "icon": "🏆",
+                "title": "Community Impact",
+                "description": "Hackathons, tech meetups, volunteer work, and giving back to the community"
+            }
+        ],
+        "gallery": {
+            "title": "Memorable Moments",
+            "activities": [
+                {
+                    "id": 1,
+                    "image": "../assets/images/activities/ai-research-1.jpg",
+                    "alt": "AI Research Session",
+                    "title": "AI Research",
+                    "description": "Exploring cutting-edge AI technologies"
+                },
+                {
+                    "id": 2,
+                    "image": "../assets/images/activities/hackathon-win.jpg",
+                    "alt": "Hackathon Victory",
+                    "title": "Hackathon Win",
+                    "description": "Innovation meets dedication"
+                },
+                {
+                    "id": 3,
+                    "image": "../assets/images/activities/football-match.jpg",
+                    "alt": "Football Match",
+                    "title": "Football Passion",
+                    "description": "Team spirit and sportsmanship"
+                },
+                {
+                    "id": 4,
+                    "image": "../assets/images/activities/agritech-demo.jpg",
+                    "alt": "AgriTech Demo",
+                    "title": "AgriTech Innovation",
+                    "description": "Smart farming solutions"
+                },
+                {
+                    "id": 5,
+                    "image": "../assets/images/activities/fintech-conference.jpg",
+                    "alt": "FinTech Conference",
+                    "title": "FinTech Conference",
+                    "description": "Financial technology insights"
+                },
+                {
+                    "id": 6,
+                    "image": "../assets/images/activities/team-presentation.jpg",
+                    "alt": "Team Presentation",
+                    "title": "Team Leadership",
+                    "description": "Collaborative project success"
+                },
+                {
+                    "id": 7,
+                    "image": "../assets/images/activities/swimming-pool.jpg",
+                    "alt": "Swimming Session",
+                    "title": "Swimming",
+                    "description": "Fitness and mental clarity"
+                },
+                {
+                    "id": 8,
+                    "image": "../assets/images/activities/tech-meetup.jpg",
+                    "alt": "Tech Meetup",
+                    "title": "Tech Community",
+                    "description": "Knowledge sharing sessions"
+                },
+                {
+                    "id": 9,
+                    "image": "../assets/images/activities/volunteer-work.jpg",
+                    "alt": "Volunteer Work",
+                    "title": "Community Service",
+                    "description": "Giving back to society"
+                },
+                {
+                    "id": 10,
+                    "image": "../assets/images/activities/cycling-adventure.jpg",
+                    "alt": "Cycling Adventure",
+                    "title": "Cycling Adventures",
+                    "description": "Exploring nature and staying fit"
+                },
+                {
+                    "id": 11,
+                    "image": "../assets/images/activities/blockchain-workshop.jpg",
+                    "alt": "Blockchain Workshop",
+                    "title": "Blockchain Workshop",
+                    "description": "Decentralized technology learning"
+                },
+                {
+                    "id": 12,
+                    "image": "../assets/images/activities/sustainability-project.jpg",
+                    "alt": "Sustainability Project",
+                    "title": "Sustainability",
+                    "description": "Environmental conservation efforts"
+                }
+            ]
+        }
+    }
+},
+"technologies": {
+    "title": "Technologies & Tools",
+    "subtitle": "My technical expertise and tools I work with",
+    "categories": [
+        {
+            "id": 1,
+            "name": "Programming Languages",
+            "technologies": [
+                {
+                    "name": "JavaScript",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "TypeScript",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "Python",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "Golang",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 2
+                },
+                {
+                    "name": "Java",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+                    "proficiency": "Intermediate",
+                    "yearsOfExperience": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Backend & APIs",
+            "technologies": [
+                {
+                    "name": "Node.js",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "Express.js",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "FastAPI",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 2
+                },
+                {
+                    "name": "GraphQL",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "REST API",
+                    "logo": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-rest-api-is-a-set-of-rules-that-allows-programs-to-talk-to-each-other-technology-color-tal-revivo.png",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "gRPC",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grpc/grpc-original.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 2
+                },
+                {
+                    "name": "Microservices",
+                    "logo": "https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/external-microservice-big-data-wanicon-lineal-color-wanicon.png",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Frontend Technologies",
+            "technologies": [
+                {
+                    "name": "React",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "Next.js",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 2
+                },
+                {
+                    "name": "Redux",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 2
+                },
+                {
+                    "name": "Mantine UI",
+                    "logo": "https://mantine.dev/favicon.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 2
+                },
+                {
+                    "name": "HTML5",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 4
+                },
+                {
+                    "name": "CSS3",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 4
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Databases & Messaging",
+            "technologies": [
+                {
+                    "name": "PostgreSQL",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "MongoDB",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "MySQL",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "Redis",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "RabbitMQ",
+                    "logo": "https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "Chroma Vector DB",
+                    "logo": "https://docs.trychroma.com/img/chroma.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 1
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Cloud & DevOps",
+            "technologies": [
+                {
+                    "name": "Microsoft Azure",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "Docker",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "GitHub Actions",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "NGINX",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 2
+                },
+                {
+                    "name": "Linux",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "Choreo WSO2",
+                    "logo": "https://wso2.com/files/wso2-logo-stacked.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 2
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "AI & Machine Learning",
+            "technologies": [
+                {
+                    "name": "LangChain",
+                    "logo": "https://python.langchain.com/img/brand/wordmark.png",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 2
+                },
+                {
+                    "name": "OpenAI APIs",
+                    "logo": "https://img.icons8.com/color/96/chatgpt.png",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 2
+                },
+                {
+                    "name": "Google Gemini",
+                    "logo": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 1
+                },
+                {
+                    "name": "Hugging Face",
+                    "logo": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 1
+                },
+                {
+                    "name": "RAG Pipelines",
+                    "logo": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-pipeline-oil-and-gas-flaticons-lineal-color-flat-icons.png",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 2
+                },
+                {
+                    "name": "OpenAI Whisper",
+                    "logo": "https://img.icons8.com/color/96/chatgpt.png",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 1
+                },
+                {
+                    "name": "Scikit-learn",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 2
+                },
+                {
+                    "name": "MCP",
+                    "logo": "https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-integration-agile-flaticons-flat-flat-icons.png",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 1
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Authentication & Integration",
+            "technologies": [
+                {
+                    "name": "Auth0",
+                    "logo": "https://auth0.com/lib/auth0-react/assets/logo.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "JWT",
+                    "logo": "https://cdn.worldvectorlogo.com/logos/jwt-3.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "RBAC",
+                    "logo": "https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-access-control-computer-security-flaticons-flat-flat-icons-2.png",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "Google APIs",
+                    "logo": "https://developers.google.com/static/images/devsite-googleg-logo.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 3
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Development Tools",
+            "technologies": [
+                {
+                    "name": "Git",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 4
+                },
+                {
+                    "name": "VS Code",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 4
+                },
+                {
+                    "name": "PyQt6",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 1
+                },
+                {
+                    "name": "Postman",
+                    "logo": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+                    "proficiency": "Expert",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "Jira",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
+                    "proficiency": "Advanced",
+                    "yearsOfExperience": 3
+                },
+                {
+                    "name": "Figma",
+                    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+                    "proficiency": "Intermediate",
+                    "yearsOfExperience": 2
+                }
+            ]
+        }
+    ]
+},
+"footer": {
+    "logo": {
+        "text": "Thiwanka Sandakalum",
+        "subtitle": "Cloud-Oriented Software Engineer"
+    },
+    "navigation": [
+        {
+            "text": "Home",
+            "url": "../index.html"
+        },
+        {
+            "text": "About",
+            "url": "about.html"
+        },
+        {
+            "text": "Skills",
+            "url": "skills.html"
+        },
+        {
+            "text": "Projects",
+            "url": "projects.html"
+        },
+        {
+            "text": "Blog",
+            "url": "blog.html"
+        },
+        {
+            "text": "Contact",
+            "url": "contact.html"
+        }
+    ],
+    "social": [
+        {
+            "platform": "GitHub",
+            "url": "https://github.com/thiwanka-sandakalum",
+            "ariaLabel": "GitHub"
+        },
+        {
+            "platform": "LinkedIn",
+            "url": "https://linkedin.com/in/thiwanka-sandakalum",
+            "ariaLabel": "LinkedIn"
+        },
+        {
+            "platform": "Twitter",
+            "url": "https://twitter.com/",
+            "ariaLabel": "Twitter"
+        },
+        {
+            "platform": "Email",
+            "url": "mailto:thiwanka2002sandakalum@gmail.com",
+            "ariaLabel": "Email"
+        }
+    ],
+    "copyright": "© 2025 Thiwanka Sandakalum. All rights reserved."
+}
+}

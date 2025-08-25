@@ -1,0 +1,455 @@
+/* Modern Skills Page Styles */
+.skills-content {
+    padding: 2rem 0;
+}
+
+/* Tech Skills Section */
+.tech-skills-section {
+    margin-bottom: 4rem;
+}
+
+.skills-header,
+.impact-header,
+.soft-skills-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.skills-header h2,
+.impact-header h2,
+.soft-skills-header h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--accent-color), #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+}
+
+.skills-header p,
+.impact-header p,
+.soft-skills-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Tech Categories */
+.tech-category {
+    margin-bottom: 3rem;
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.category-icon {
+    font-size: 2rem;
+    padding: 0.75rem;
+    background: linear-gradient(135deg, var(--accent-color), #8b5cf6);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-header h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+/* Tech Grid with Rows Animation */
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    animation: slideInFromLeft 1s ease-out;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.tech-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: var(--bg-secondary);
+    border-radius: 12px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.tech-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(99, 102, 241, 0.1), transparent);
+    transition: left 0.6s ease;
+}
+
+.tech-item:hover::before {
+    left: 100%;
+}
+
+.tech-item:hover {
+    border-color: var(--accent-color);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.2);
+}
+
+.tech-logo {
+    flex-shrink: 0;
+}
+
+.tech-emoji {
+    font-size: 2.5rem;
+    display: block;
+    padding: 0.5rem;
+    background: var(--accent-light);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.tech-item:hover .tech-emoji {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.tech-info {
+    flex: 1;
+}
+
+.tech-info h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 0.5rem 0;
+}
+
+.skill-level {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill-bar {
+    flex: 1;
+    height: 6px;
+    background: var(--border-color);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    background: linear-gradient(135deg, var(--accent-color), #8b5cf6);
+    border-radius: 3px;
+    transition: width 1s ease-out;
+    animation: fillSkillBar 2s ease-out;
+}
+
+@keyframes fillSkillBar {
+    0% {
+        width: 0%;
+    }
+}
+
+.skill-percentage {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    min-width: 40px;
+    text-align: right;
+}
+
+.experience {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+/* Professional Impact Section */
+.professional-impact-section {
+    margin: 4rem 0;
+    padding: 3rem 0;
+    background: linear-gradient(135deg, var(--bg-secondary), var(--card-bg));
+    border-radius: 20px;
+}
+
+.impact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.impact-card {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.impact-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--accent-color);
+    box-shadow: 0 12px 35px rgba(99, 102, 241, 0.2);
+}
+
+.impact-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.impact-card h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+}
+
+.impact-card p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.impact-card strong {
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+.impact-stats {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.stat {
+    padding: 0.5rem 1rem;
+    background: var(--accent-light);
+    color: var(--accent-color);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid var(--accent-color);
+}
+
+/* Soft Skills Section */
+.soft-skills-section {
+    margin: 4rem 0;
+}
+
+.soft-skills-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.skill-showcase {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    background: var(--card-bg);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.skill-showcase:nth-child(even) {
+    direction: rtl;
+}
+
+.skill-showcase:nth-child(even) .showcase-content {
+    direction: ltr;
+}
+
+.skill-showcase:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.showcase-image {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.showcase-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.skill-showcase:hover .showcase-image img {
+    transform: scale(1.05);
+}
+
+.showcase-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+    padding: 2rem 1.5rem 1.5rem;
+    color: white;
+}
+
+.showcase-overlay h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.showcase-overlay p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin: 0;
+}
+
+.showcase-content {
+    padding: 2rem;
+}
+
+.showcase-content h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+}
+
+.showcase-content p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.impact-points {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.impact-points span {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.impact-points span::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tech-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .impact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-showcase {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-showcase:nth-child(even) {
+        direction: ltr;
+    }
+
+    .showcase-image {
+        height: 250px;
+    }
+
+    .skills-header h2,
+    .impact-header h2,
+    .soft-skills-header h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .tech-category {
+        padding: 1.5rem;
+    }
+
+    .tech-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .skill-level {
+        width: 100%;
+    }
+
+    .impact-card {
+        padding: 1.5rem;
+    }
+
+    .showcase-content {
+        padding: 1.5rem;
+    }
+}
+
+/* Moving Wave Animation for Tech Rows */
+@keyframes wave {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.tech-item:nth-child(odd) {
+    animation: wave 3s ease-in-out infinite;
+    animation-delay: 0s;
+}
+
+.tech-item:nth-child(even) {
+    animation: wave 3s ease-in-out infinite;
+    animation-delay: 1.5s;
+}
