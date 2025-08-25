@@ -13,7 +13,7 @@
     "hero": {
         "title": "About Me",
         "subtitle": "Get to know me better",
-        "profileImage": "../assets/images/profile-about.jpg",
+        "profileImage": "https://otl.nyc3.cdn.digitaloceanspaces.com/images/IMG-20250814-WA0018~3.jpg",
         "profileAlt": "Thiwanka Sandakalum - Software Engineer"
     },
     "aboutSection": {

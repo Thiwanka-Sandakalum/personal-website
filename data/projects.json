@@ -9,12 +9,13 @@
             "title": "FinVerse - AI-Powered Financial Marketplace",
             "shortDescription": "AI-powered platform connecting consumers with financial institutions, featuring ML recommendations and real-time financial advice.",
             "fullDescription": "An innovative AI-powered financial marketplace that connects consumers with financial institutions, enabling users to compare loans, credit cards, savings accounts, and other financial products from multiple banks and lenders in one centralized platform. Built with cutting-edge AI technologies and deployed on Microsoft Azure.",
-            "image": "assets/images/project1.jpg",
+            "image": "https://otl.nyc3.cdn.digitaloceanspaces.com/images/app-bankguru-com.vercel.app_%20(2).png",
             "gallery": [
-                "assets/images/projects/finverse/dashboard.jpg",
-                "assets/images/projects/finverse/ai-chat.jpg",
-                "assets/images/projects/finverse/comparison.jpg",
-                "assets/images/projects/finverse/mobile.jpg"
+                "https://otl.nyc3.cdn.digitaloceanspaces.com/images/app-bankguru-com.vercel.app_sign-in.png",
+                "https://otl.nyc3.cdn.digitaloceanspaces.com/images/app-bankguru-com.vercel.app_sign-up_sso-callback_sign_up_force_redirect_url=https%253A%252F%252Fapp-bankguru-com.vercel.app%252Fauth%252Fcallback&sign_in_force_redirect_url=https%253A%252F%252Fapp-bankguru-com.vercel.app%252Fauth%252Fcallback.png",
+                "https://otl.nyc3.cdn.digitaloceanspaces.com/images/app-bankguru-com.vercel.app_dashboard%20(1).png",
+                "https://otl.nyc3.cdn.digitaloceanspaces.com/images/app-bankguru-com.vercel.app_dashboard%20(3).png",
+                "https://otl.nyc3.cdn.digitaloceanspaces.com/images/app-bankguru-com.vercel.app_calculators%20(2).png"
             ],
             "category": "AI",
             "status": "Live",
@@ -51,7 +52,7 @@
                 "Deployed scalable infrastructure on Microsoft Azure with Docker + CI/CD pipelines"
             ],
             "links": {
-                "demo": "https://app.bankguru.com",
+                "demo": "https://app-bankguru-com.vercel.app",
                 "github": "https://github.com/thiwanka-sandakalum/finverse"
             },
             "startDate": "2024-01",
