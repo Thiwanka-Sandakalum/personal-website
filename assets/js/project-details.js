@@ -23,7 +23,7 @@ async function loadProjectDetails(projectId) {
     try {
         // Load projects data
         const dataManager = window.dataManager;
-        const projectsData = await dataManager.loadProjects();
+        const projectsData = await dataManager.loadProjectsData();
 
         // Find the specific project
         const project = projectsData.projects.find(p => p.id == projectId);

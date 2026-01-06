@@ -6,57 +6,60 @@
     "projects": [
         {
             "id": 1,
-            "title": "FinVerse - AI-Powered Financial Marketplace",
-            "shortDescription": "AI-powered platform connecting consumers with financial institutions, featuring ML recommendations and real-time financial advice.",
-            "fullDescription": "An innovative AI-powered financial marketplace that connects consumers with financial institutions, enabling users to compare loans, credit cards, savings accounts, and other financial products from multiple banks and lenders in one centralized platform. Built with cutting-edge AI technologies and deployed on Microsoft Azure.",
-            "image": "https://otl.nyc3.cdn.digitaloceanspaces.com/images/app-bankguru-com.vercel.app_%20(2).png",
+            "title": "FinVerse – AI-Powered Financial Marketplace",
+            "shortDescription": "Cloud-native, AI-powered financial marketplace enabling smart comparison, discovery, and personalized financial decisions.",
+            "fullDescription": "FinVerse is a cloud-native, AI-powered financial marketplace that connects consumers with financial institutions through a single intelligent platform. Users can compare loans, credit cards, fixed deposits, and other financial products across multiple institutions, receive personalized recommendations, and interact with an AI financial assistant powered by Retrieval-Augmented Generation (RAG). The platform is built using a microservices architecture, secured with Auth0, and deployed on Microsoft Azure with private networking and API gateway enforcement.",
+            "image": "../assets/images/project/finverse/finverse-homepage-hero.png",
             "gallery": [
-                "https://otl.nyc3.cdn.digitaloceanspaces.com/images/app-bankguru-com.vercel.app_sign-in.png",
-                "https://otl.nyc3.cdn.digitaloceanspaces.com/images/app-bankguru-com.vercel.app_sign-up_sso-callback_sign_up_force_redirect_url=https%253A%252F%252Fapp-bankguru-com.vercel.app%252Fauth%252Fcallback&sign_in_force_redirect_url=https%253A%252F%252Fapp-bankguru-com.vercel.app%252Fauth%252Fcallback.png",
-                "https://otl.nyc3.cdn.digitaloceanspaces.com/images/app-bankguru-com.vercel.app_dashboard%20(1).png",
-                "https://otl.nyc3.cdn.digitaloceanspaces.com/images/app-bankguru-com.vercel.app_dashboard%20(3).png",
-                "https://otl.nyc3.cdn.digitaloceanspaces.com/images/app-bankguru-com.vercel.app_calculators%20(2).png"
+                "../assets/images/project/finverse/finverse-mobile-app-showcase.png",
+                "../assets/images/project/finverse/finverse-admin-dashboard.png",
+                "../assets/images/project/finverse/finverse-ai-copilot-chat.png",
+                "../assets/images/project/finverse/finverse-financial-calculators.png",
+                "../assets/images/project/finverse/finverse-user-profile-dashboard.png",
+                "../assets/images/project/finverse/finverse-authentication-flow.png"
             ],
-            "category": "AI",
+            "category": "AI / FinTech",
             "status": "Live",
             "technologies": [
-                "Next.js",
-                "TypeScript",
                 "React",
-                "TailwindCSS",
+                "Redux",
+                "Tailwind CSS",
                 "Node.js",
                 "Python",
                 "FastAPI",
-                "PostgreSQL",
-                "MongoDB",
-                "LangChain",
-                "Google AI",
-                "Azure",
-                "Docker",
+                "Azure API Management",
+                "Auth0",
+                "Azure MySQL Flexible Server",
                 "Redis",
-                "RabbitMQ"
+                "MongoDB (Vector DB)",
+                "LangChain",
+                "Google Gemini API",
+                "Firebase Hosting",
+                "Microsoft Azure",
+                "Docker",
+                "GitHub Actions"
             ],
             "features": [
-                "🤖 AI-powered chatbot using Google Gemini API + LangChain for real-time financial advice",
-                "🧠 ML recommendation engine with scikit-learn for personalized product suggestions",
-                "📊 Financial marketplace platform with 3 microservices handling 10K+ financial products",
-                "📱 Responsive Next.js frontend with Tailwind, shadcn/ui, and Radix UI",
-                "☁️ Scalable infrastructure on Microsoft Azure with Docker + CI/CD pipelines",
-                "🔒 Secure authentication and data protection with industry standards"
+                "🤖 AI-powered financial assistant using Gemini API + LangChain with RAG for product-aware recommendations",
+                "🔐 Secure authentication and role-based access control using Auth0 (OIDC + JWT)",
+                "📊 Financial marketplace supporting comparison of loans, deposits, and credit products across institutions",
+                "⚡ High-performance backend with Redis caching and API Gateway-based routing",
+                "🧠 Vector-based semantic search using MongoDB for intelligent product retrieval",
+                "☁️ Scalable microservices architecture deployed on Microsoft Azure with private VNet isolation"
             ],
             "achievements": [
-                "Built a financial marketplace platform with 3 microservices handling 10K+ financial products",
-                "Developed an AI-powered chatbot using Google Gemini API + LangChain for real-time financial advice",
-                "Implemented ML recommendation engine with scikit-learn for personalized product suggestions",
-                "Created responsive Next.js frontend with Tailwind, shadcn/ui, and Radix UI",
-                "Deployed scalable infrastructure on Microsoft Azure with Docker + CI/CD pipelines"
+                "Designed and implemented a cloud-native microservices architecture with a single public API entry point",
+                "Built an AI-powered financial assistant using Gemini API and LangChain with RAG",
+                "Implemented secure authentication and RBAC using Auth0 across frontend and backend",
+                "Optimized performance using Redis caching and API Gateway-based request routing",
+                "Deployed a production-grade system on Microsoft Azure with CI/CD pipelines"
             ],
             "links": {
-                "demo": "https://app-bankguru-com.vercel.app",
+                "demo": "https://finverselk.web.app",
                 "github": "https://github.com/thiwanka-sandakalum/finverse"
             },
-            "startDate": "2024-01",
-            "endDate": "2024-06",
+            "startDate": "2025-10",
+            "endDate": "2025-12",
             "teamSize": "Solo Project"
         },
         {

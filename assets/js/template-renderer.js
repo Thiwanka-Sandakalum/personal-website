@@ -321,6 +321,93 @@ class TemplateRenderer {
     }
 
     /**
+     * Check if a color is light (for text contrast)
+     * @param {string} hex - Hex color code
+     * @returns {boolean} - True if color is light
+     */
+    isLightColor(hex) {
+        const rgb = parseInt(hex.replace('#', ''), 16);
+        const r = (rgb >> 16) & 0xff;
+        const g = (rgb >> 8) & 0xff;
+        const b = (rgb >> 0) & 0xff;
+        const luma = 0.299 * r + 0.587 * g + 0.114 * b;
+        return luma > 186;
+    }
+
+    /**
+     * Get color for technology badge
+     * @param {string} tech - Technology name
+     * @returns {string} - Color for the badge
+     */
+    getTechColor(tech) {
+        const techLower = tech.toLowerCase();
+
+        // Programming Languages
+        if (techLower.includes('python')) return '#3776AB';
+        if (techLower.includes('javascript') || techLower.includes('js')) return '#F7DF1E';
+        if (techLower.includes('typescript') || techLower.includes('ts')) return '#3178C6';
+        if (techLower.includes('java') && !techLower.includes('javascript')) return '#007396';
+        if (techLower.includes('c++') || techLower.includes('cpp')) return '#00599C';
+        if (techLower.includes('c#') || techLower.includes('csharp')) return '#239120';
+        if (techLower.includes('go') || techLower.includes('golang')) return '#00ADD8';
+        if (techLower.includes('rust')) return '#CE422B';
+        if (techLower.includes('php')) return '#777BB4';
+        if (techLower.includes('ruby')) return '#CC342D';
+        if (techLower.includes('swift')) return '#FA7343';
+        if (techLower.includes('kotlin')) return '#7F52FF';
+
+        // Frontend Frameworks/Libraries
+        if (techLower.includes('react')) return '#61DAFB';
+        if (techLower.includes('vue')) return '#4FC08D';
+        if (techLower.includes('angular')) return '#DD0031';
+        if (techLower.includes('svelte')) return '#FF3E00';
+        if (techLower.includes('next')) return '#000000';
+        if (techLower.includes('nuxt')) return '#00DC82';
+
+        // Backend Frameworks
+        if (techLower.includes('node')) return '#339933';
+        if (techLower.includes('express')) return '#000000';
+        if (techLower.includes('django')) return '#092E20';
+        if (techLower.includes('flask')) return '#000000';
+        if (techLower.includes('spring')) return '#6DB33F';
+        if (techLower.includes('laravel')) return '#FF2D20';
+        if (techLower.includes('rails')) return '#CC0000';
+
+        // Databases
+        if (techLower.includes('mongodb')) return '#47A248';
+        if (techLower.includes('postgresql') || techLower.includes('postgres')) return '#4169E1';
+        if (techLower.includes('mysql')) return '#4479A1';
+        if (techLower.includes('redis')) return '#DC382D';
+        if (techLower.includes('firebase')) return '#FFCA28';
+        if (techLower.includes('sqlite')) return '#003B57';
+
+        // Cloud/DevOps
+        if (techLower.includes('aws')) return '#FF9900';
+        if (techLower.includes('azure')) return '#0089D6';
+        if (techLower.includes('gcp') || techLower.includes('google cloud')) return '#4285F4';
+        if (techLower.includes('docker')) return '#2496ED';
+        if (techLower.includes('kubernetes') || techLower.includes('k8s')) return '#326CE5';
+        if (techLower.includes('terraform')) return '#7B42BC';
+
+        // Tools & Others
+        if (techLower.includes('git')) return '#F05032';
+        if (techLower.includes('figma')) return '#F24E1E';
+        if (techLower.includes('tailwind')) return '#06B6D4';
+        if (techLower.includes('bootstrap')) return '#7952B3';
+        if (techLower.includes('sass') || techLower.includes('scss')) return '#CC6699';
+        if (techLower.includes('webpack')) return '#8DD6F9';
+        if (techLower.includes('vite')) return '#646CFF';
+
+        // ML/AI
+        if (techLower.includes('tensorflow')) return '#FF6F00';
+        if (techLower.includes('pytorch')) return '#EE4C2C';
+        if (techLower.includes('opencv')) return '#5C3EE8';
+
+        // Default colors for unmatched technologies
+        return '#6366F1';
+    }
+
+    /**
      * Render project details page
      */
     renderProjectDetails(project) {
@@ -366,11 +453,29 @@ class TemplateRenderer {
             </div>
             </div>
 
+                    <!-- Technologies Section -->
+                    <section class="sidebar-section technologies-section">
+                        <h3>🛠️ Technologies Used</h3>
+                        <div class="tech-stack">
+                            ${project.technologies.map(tech => {
+            const color = this.getTechColor(tech);
+            const isLight = this.isLightColor(color);
+            return `
+                                    <span class="tech-badge" style="background-color: ${color}; color: ${isLight ? '#000' : '#fff'}; border: 2px solid ${color};">
+                                        ${tech}
+                                    </span>
+                                `;
+        }).join('')}
+                        </div>
+                    </section>
+
             <div class="project-content-sections">
             <div class="project-main-content">
                 <!-- Description Section -->
-                        <p class="project-full-description">${project.fullDescription}</p>
-                    </section>
+                <section class="project-section">
+                    <h2>About This Project</h2>
+                    <p class="project-full-description">${project.fullDescription}</p>
+                </section>
 
                     <!-- Features Section -->
                     ${project.features && project.features.length > 0 ? `
@@ -408,15 +513,6 @@ class TemplateRenderer {
                 </div>
 
                 <div class="project-sidebar">
-                    <!-- Technologies Section -->
-                    <section class="sidebar-section">
-                        <h3>Technologies Used</h3>
-                        <div class="tech-stack">
-                            ${project.technologies.map(tech => `
-                                <span class="tech-badge">${tech}</span>
-                            `).join('')}
-                        </div>
-                    </section>
 
                     <!-- Project Info Section -->
                     <section class="sidebar-section">
