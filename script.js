@@ -84,3 +84,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+// --- Firebase Analytics ---
+// Add after all other DOMContentLoaded logic
+const firebaseConfig = {
+    apiKey: "AIzaSyDHPYY5PERS8ZWKn8JtbanbJciTdhPwugY",
+    authDomain: "thiwanka-sandakalum.firebaseapp.com",
+    projectId: "thiwanka-sandakalum",
+    storageBucket: "thiwanka-sandakalum.appspot.com", // fixed .com
+    messagingSenderId: "143377971431",
+    appId: "1:143377971431:web:824bd0c6bdb0f59d160a42",
+    measurementId: "G-RXPK9YGWJV"
+};
+
+if (window.firebase && firebase.initializeApp) {
+    firebase.initializeApp(firebaseConfig);
+    if (firebase.analytics) {
+        firebase.analytics();
+    }
+}
