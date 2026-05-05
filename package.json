@@ -1,5 +1,12 @@
 {
+  "name": "personal-website",
+  "version": "2.0.0",
+  "description": "Portfolio website for Thiwanka Sandakalum - AI Software Engineer",
+  "scripts": {
+    "dev": "npx serve .",
+    "deploy": "echo 'Configure your hosting provider deploy command here'"
+  },
   "dependencies": {
-    "firebase": "^12.8.0"
+    "firebase": "^12.12.1"
   }
 }

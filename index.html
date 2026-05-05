@@ -4,8 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of a Senior Software Engineer">
-    <title>Thiwanka Sandakalum</title>
+    <meta name="description"
+        content="Thiwanka Sandakalum - Software Engineer specializing in Applied AI  / Fullstack development. Expert in Python, Node.js, LangChain, RAG, and modern cloud technologies.">
+    <meta name="keywords"
+        content="AI Engineer, Full Stack Developer, Backend Developer, Python, FastAPI, Node.js, LangChain, RAG, Software Engineer">
+    <meta name="author" content="Thiwanka Sandakalum">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#7f9cf5">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thiwanka-sandakalum.web.app/">
+    <meta property="og:title" content="Thiwanka Sandakalum - Software Engineer">
+    <meta property="og:description"
+        content="Software Engineer specializing in Applied AI  / Fullstack development with expertise in Python, Node.js, LangChain, and cloud technologies.">
+    <meta property="og:image" content="https://thiwanka-sandakalum.web.app/assets/my.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://thiwanka-sandakalum.web.app/">
+    <meta property="twitter:title" content="Thiwanka Sandakalum - Software Engineer">
+    <meta property="twitter:description"
+        content="Software Engineer specializing in Applied AI  / Fullstack development with expertise in Python, Node.js, LangChain, and cloud technologies.">
+    <meta property="twitter:image" content="https://thiwanka-sandakalum.web.app/assets/my.png">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://thiwanka-sandakalum.web.app/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="alternate icon" href="/favicon.ico">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Thiwanka S.">
+
+    <title>Thiwanka Sandakalum - Software Engineer | Applied AI / Fullstack</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,63 +50,88 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/feather-icons"></script>
-    <!-- Firebase JS SDKs -->
-    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics-compat.js"></script>
+    <script src="https://unpkg.com/feather-icons" defer></script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Thiwanka Sandakalum",
+      "jobTitle": "Software Engineer",
+      "url": "https://thiwanka-sandakalum.web.app/",
+      "email": "thiwankalum@gmail.com",
+      "image": "https://thiwanka-sandakalum.web.app/assets/my.png",
+      "description": "Software Engineer specializing in Applied AI  / Fullstack development",
+      "knowsAbout": ["Artificial Intelligence", "Python", "Node.js", "LangChain", "FastAPI", "React", "Cloud Computing"],
+      "sameAs": [
+        "https://www.linkedin.com/in/thiwanka-sandakalum/",
+        "https://github.com/Thiwanka-Sandakalum",
+        "https://medium.com/@thiwanka2002sandakalum"
+      ]
+    }
+    </script>
 </head>
 
 <body>
 
+    <!-- Skip to Main Content -->
+    <a href="#home" class="skip-to-main">Skip to main content</a>
+
     <nav class="navbar">
         <div class="container nav-container">
             <a href="#home" class="logo" aria-label="Home">
-                <span style="font-weight:700; font-size:1.5rem; letter-spacing:0.5px; color:#7f9cf5;">TS</span><span
-                    class="dot" style="color:#02b875;">.</span>
+                <span class="logo-text">TS</span><span class="dot">.</span>
             </a>
             <ul class="nav-links">
                 <li><a href="#home" aria-label="About section">About</a></li>
                 <li><a href="#tech-stack" aria-label="Tech Stack section">Tech Stack</a></li>
                 <li><a href="#proficiencies" aria-label="Technical Proficiencies section">Proficiencies</a></li>
-                <li><a href="#skills" aria-label="Case Studies section">Case Studies</a></li>
+                <li><a href="#projects" aria-label="Projects section">Projects</a></li>
+                <li><a href="#writing" class="btn-nav" aria-label="Writing section">Writing</a></li>
                 <li><a href="#contact" class="btn-nav" aria-label="Contact section">Contact</a></li>
             </ul>
-            <button class="hamburger" aria-label="Open navigation menu"
-                style="background:none; border:none; cursor:pointer; padding:0;">
-                <i data-feather="menu"></i>
+            <button class="theme-toggle" aria-label="Toggle dark/light mode" title="Toggle theme">
+                <i data-feather="sun" class="theme-icon"></i>
+            </button>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
             </button>
         </div>
     </nav>
+
+    <!-- Mobile Menu Backdrop -->
+    <div class="nav-backdrop"></div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top" title="Back to top">
+        <i data-feather="arrow-up"></i>
+    </button>
 
     <section id="home" class="hero">
         <div class="container hero-container">
             <div class="hero-content hidden-left">
                 <span class="greeting">Hello, I'm Thiwanka Sandakalum</span>
-                <h1>AI Software Engineer <br> <span class="highlight">Full Stack & Backend</span></h1>
-                <p class="ai-tagline" style="font-size:1.1rem; color:#7f9cf5; margin-top:0.5rem; font-weight:500;">
-                    Empowering solutions with AI-driven innovation</p>
-
-                <p class="hero-summary">I turn ideas into digital experiences, from hidden code to visible moments that
-                    people interact with.
-                    Along the way, I’ve built tools that answer questions, organize chaos, and give people back time.
-                    Every project is a small adventure, exploring how technology can quietly make life easier and more
-                    connected.</p>
-                <div class="hero-social-links"
-                    style="margin:1.5rem 0 2rem 0; display:flex; gap:1.2rem; align-items:center;">
-                    <a href="mailto:thiwankalum@gmail.com" title="Email" target="_blank" rel="noopener"
-                        class="social-icon" style="color:#7f9cf5;"><i data-feather="mail"></i></a>
-                    <a href="https://www.linkedin.com/in/thiwanka-sandakalum/" title="LinkedIn" target="_blank"
-                        rel="noopener" class="social-icon" style="color:#0a66c2;"><i data-feather="linkedin"></i></a>
-                    <a href="https://github.com/Thiwanka-Sandakalum" title="GitHub" target="_blank" rel="noopener"
-                        class="social-icon" style="color:#cbc7c7;"><i data-feather="github"></i></a>
-                    <a href="https://medium.com/@thiwanka2002sandakalum" title="Medium" target="_blank" rel="noopener"
-                        class="social-icon" style="color:#02b875;"><i data-feather="file-text"></i></a>
+                <h1 class="hero-title">Applied AI Engineer</h1>
+                <div class="hero-skills">Agentic Systems &bull; RAG &bull; Cloud AI</div>
+                
+                <div class="hero-description">
+                    <p class="desc-primary">I build production-grade AI systems that turn enterprise data into autonomous decision engines. Specializing in agentic orchestration, retrieval-augmented generation, and scalable cloud deployment.</p>
+                    <p class="desc-secondary">Focused on reliability, observability, and high-velocity automation in real-world systems.</p>
                 </div>
 
+                <div class="hero-social-links">
+                    <a href="mailto:thiwankalum@gmail.com" title="Email" target="_blank" rel="noopener" class="social-icon"><i data-feather="mail"></i></a>
+                    <a href="https://www.linkedin.com/in/thiwanka-sandakalum/" title="LinkedIn" target="_blank" rel="noopener" class="social-icon"><i data-feather="linkedin"></i></a>
+                    <a href="https://github.com/Thiwanka-Sandakalum" title="GitHub" target="_blank" rel="noopener" class="social-icon"><i data-feather="github"></i></a>
+                    <a href="https://medium.com/@thiwanka2002sandakalum" title="Medium" target="_blank" rel="noopener" class="social-icon"><i data-feather="file-text"></i></a>
+                </div>
             </div>
             <div class="hero-image hidden-right">
                 <div class="img-wrapper">
-                    <img src="/assets/my.png" alt="John Doe Profile">
+                    <img src="/assets/my.png" alt="Thiwanka Sandakalum - Software Engineer" loading="lazy">
                     <div class="img-backdrop"></div>
                 </div>
             </div>
@@ -79,11 +141,43 @@
     <section id="tech-stack" class="section bg-darker tech-logos-section">
         <div class="container-fluid">
             <p class="section-subtitle hidden-up" style="text-align:center;">Core Technologies & Tools</p>
+
+            <!-- AI / ML & Agentic -->
+            <p class="tech-group-label">AI / ML &amp; Agentic</p>
             <div class="tech-stack-row">
                 <div class="tech-pill"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"
+                        class="tech-icon"> Python</div>
+                <div class="tech-pill"><img
+                        src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/langgraph.png"
+                        alt="LangGraph" class="tech-icon"> LangGraph</div>
+                <div class="tech-pill"><img
                         src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langchain.png"
-                        alt="LangChain" class="tech-icon">
-                    LangChain</div>
+                        alt="LangChain" class="tech-icon"> LangChain</div>
+                <div class="tech-pill"><img
+                        src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/gemini.png"
+                        alt="Gemini" class="tech-icon"> Gemini</div>
+                <div class="tech-pill"><img
+                        src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/google-adk.png"
+                        alt="Google ADK" class="tech-icon"> Google ADK</div>
+                <div class="tech-pill"><img
+                        src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/langsmith.png"
+                        alt="LangSmith" class="tech-icon"> LangSmith</div>
+                <div class="tech-pill"><i data-feather="search" class="tech-icon"></i> RAG / pgvector</div>
+                <div class="tech-pill"><img
+                        src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/mlflow.png"
+                        alt="MLflow" class="tech-icon"> MLflow</div>
+                <div class="tech-pill"><i data-feather="check-circle" class="tech-icon"></i> RAGAS</div>
+                <div class="tech-pill"><i data-feather="check-circle" class="tech-icon"></i> DeepEval</div>
+                <div class="tech-pill"><i data-feather="layers" class="tech-icon"></i> Celery</div>
+            </div>
+
+            <!-- Backend & APIs -->
+            <p class="tech-group-label">Backend &amp; APIs</p>
+            <div class="tech-stack-row">
+                <div class="tech-pill"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+                        alt="FastAPI" class="tech-icon"> FastAPI</div>
                 <div class="tech-pill"><img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
                         alt="Node.js" class="tech-icon"> Node.js</div>
@@ -91,8 +185,23 @@
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
                         alt="Express" class="tech-icon invert-icon"> Express</div>
                 <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
-                        alt="FastAPI" class="tech-icon"> FastAPI</div>
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" alt="Go"
+                        class="tech-icon"> Go</div>
+                <div class="tech-pill"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#"
+                        class="tech-icon"> C# / .NET</div>
+                <div class="tech-pill"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis"
+                        class="tech-icon"> Redis</div>
+                <div class="tech-pill"><img src="https://www.svgrepo.com/show/303576/rabbitmq-logo.svg" alt="RabbitMQ"
+                        class="tech-icon"> RabbitMQ</div>
+                <div class="tech-pill"><i data-feather="link" class="tech-icon"></i> REST API</div>
+                <div class="tech-pill"><i data-feather="layers" class="tech-icon"></i> Microservices</div>
+            </div>
+
+            <!-- Databases -->
+            <p class="tech-group-label">Databases</p>
+            <div class="tech-stack-row">
                 <div class="tech-pill"><img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
                         alt="PostgreSQL" class="tech-icon"> PostgreSQL</div>
@@ -100,24 +209,63 @@
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
                         alt="MongoDB" class="tech-icon"> MongoDB</div>
                 <div class="tech-pill"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"
+                        class="tech-icon"> MySQL</div>
+                <div class="tech-pill"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg" alt="Neo4j"
+                        class="tech-icon"> Neo4j</div>
+            </div>
+
+            <!-- Cloud & DevOps -->
+            <p class="tech-group-label">Cloud &amp; DevOps</p>
+            <div class="tech-stack-row">
+                <div class="tech-pill"><img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"
                         class="tech-icon"> Docker</div>
+                <div class="tech-pill"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+                        alt="Kubernetes" class="tech-icon"> Kubernetes</div>
+                <div class="tech-pill"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+                        alt="GCP" class="tech-icon"> GCP</div>
+                <div class="tech-pill"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure"
+                        class="tech-icon"> Azure</div>
                 <div class="tech-pill"><img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
                         alt="AWS" class="tech-icon"> AWS</div>
                 <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
-                        alt="Firebase" class="tech-icon"> Firebase</div>
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
+                        alt="Terraform" class="tech-icon"> Terraform</div>
                 <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"
-                        class="tech-icon"> Git</div>
-                <div class="tech-pill"><i data-feather="layers" class="tech-icon"></i> Microservices</div>
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg"
+                        alt="GitHub Actions" class="tech-icon"> GitHub Actions</div>
+                <div class="tech-pill"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg"
+                        alt="Prometheus" class="tech-icon"> Prometheus</div>
+                <div class="tech-pill"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg"
+                        alt="Grafana" class="tech-icon"> Grafana</div>
+            </div>
+
+            <!-- Frontend -->
+            <p class="tech-group-label">Frontend</p>
+            <div class="tech-stack-row">
                 <div class="tech-pill"><img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
                         class="tech-icon"> React</div>
                 <div class="tech-pill"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                        alt="Next.js" class="tech-icon invert-icon"> Next.js</div>
+                <div class="tech-pill"><img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
                         alt="Angular" class="tech-icon"> Angular</div>
+                <div class="tech-pill"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                        alt="TypeScript" class="tech-icon"> TypeScript</div>
+                <div class="tech-pill"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        alt="JavaScript" class="tech-icon"> JavaScript</div>
                 <div class="tech-pill"><img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
                         alt="Tailwind CSS" class="tech-icon"> Tailwind CSS</div>
@@ -127,76 +275,23 @@
                 <div class="tech-pill"><img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux"
                         class="tech-icon"> Redux</div>
-                <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-                        alt="TypeScript" class="tech-icon"> TypeScript</div>
-                <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                        alt="JavaScript" class="tech-icon"> JavaScript</div>
+            </div>
 
-                <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                        alt="Node.js" class="tech-icon"> Node.js</div>
-                <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-                        alt="Express.js" class="tech-icon invert-icon"> Express.js</div>
-                <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"
-                        class="tech-icon"> Python</div>
-                <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
-                        alt="FastAPI" class="tech-icon"> FastAPI</div>
-                <div class="tech-pill"><i data-feather="layers" class="tech-icon"></i> Microservices</div>
-                <div class="tech-pill"><i data-feather="link" class="tech-icon"></i> REST API</div>
-
-                <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"
-                        class="tech-icon"> MySQL</div>
-                <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-                        alt="PostgreSQL" class="tech-icon"> PostgreSQL</div>
-                <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-                        alt="MongoDB" class="tech-icon"> MongoDB</div>
-                <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg" alt="Neo4j"
-                        class="tech-icon"> Neo4j</div>
-                <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure"
-                        class="tech-icon"> Azure</div>
-                <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"
-                        class="tech-icon"> Docker</div>
-                <div class="tech-pill"><img src="https://www.svgrepo.com/show/303576/rabbitmq-logo.svg" alt="RabbitMQ"
-                        class="tech-icon"> RabbitMQ</div>
-
-                <div class="tech-pill"><img src="https://w7.pngwing.com/pngs/661/799/png-transparent-auth0-hd-logo.png"
-                        alt="Auth0" class="tech-icon"> Auth0
-                </div>
-                <div class="tech-pill"><img src="https://www.buildwithai.io/assets/png/clerk-DFFpdjtF.png" alt="Clerk"
-                        class="tech-icon"> Clerk
-                </div>
+            <!-- Tools & Auth -->
+            <p class="tech-group-label">Tools &amp; Auth</p>
+            <div class="tech-stack-row">
                 <div class="tech-pill"><img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"
                         class="tech-icon"> Git</div>
                 <div class="tech-pill"><img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
-                        alt="Firebase" class="tech-icon"> Firebase</div>
-                <div class="tech-pill"><img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"
                         class="tech-icon"> Linux</div>
+                <div class="tech-pill"><img src="https://w7.pngwing.com/pngs/661/799/png-transparent-auth0-hd-logo.png"
+                        alt="Auth0" class="tech-icon"> Auth0</div>
+                <div class="tech-pill"><img src="https://www.buildwithai.io/assets/png/clerk-DFFpdjtF.png" alt="Clerk"
+                        class="tech-icon"> Clerk</div>
                 <div class="tech-pill"><i data-feather="repeat" class="tech-icon"></i> CI/CD</div>
                 <div class="tech-pill"><i data-feather="check-circle" class="tech-icon"></i> Test Automation</div>
-                <div class="tech-pill"><img
-                        src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langchain.png"
-                        alt="LangChain" class="tech-icon">
-                    LangChain</div>
-                <div class="tech-pill"><img
-                        src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/langgraph.png"
-                        alt="LangGraph" class="tech-icon">
-                    LangGraph</div>
-                <div class="tech-pill"><i data-feather="search" class="tech-icon"></i> RAG</div>
-                <div class="tech-pill"><i data-feather="bell" class="tech-icon"></i> Pub/Sub</div>
             </div>
         </div>
     </section>
@@ -205,114 +300,218 @@
             <h2 class="section-title" style="text-align:left;">Technical Proficiencies</h2>
             <div class="proficiencies-grid">
                 <div class="proficiency-card">
-                    <h3>Backend Engineering</h3>
-                    <p>Building scalable and reliable services with <b>Python (FastAPI)</b>, <b>Node.js
-                            (Express.js)</b>, and <b>Go</b>, focusing on performance, maintainability, and microservices
-                        architecture.</p>
+                    <h3>Agentic AI Systems</h3>
+                    <p>LangChain, LangGraph, multi-agent orchestration, HITL control, real-time streaming (Google ADK)</p>
+                    <div class="prof-tags">
+                        <span class="prof-badge">LangChain</span>
+                        <span class="prof-badge">LangGraph</span>
+                        <span class="prof-badge">ADK</span>
+                        <span class="prof-badge">Streaming</span>
+                    </div>
                 </div>
                 <div class="proficiency-card">
-                    <h3>Cloud & DevOps</h3>
-                    <p>Deploying and monitoring applications on <b>Azure</b> and <b>Firebase</b>, managing CI/CD
-                        pipelines with <b>GitHub Actions</b> and <b>Docker</b> containers for smooth releases.</p>
+                    <h3>RAG Systems</h3>
+                    <p>Hybrid retrieval pipelines using pgvector, Pinecone, Neo4j with evaluation-driven design</p>
+                    <div class="prof-tags">
+                        <span class="prof-badge">RAG</span>
+                        <span class="prof-badge">pgvector</span>
+                        <span class="prof-badge">Pinecone</span>
+                        <span class="prof-badge">Neo4j</span>
+                        <span class="prof-badge">RAGAS</span>
+                    </div>
                 </div>
                 <div class="proficiency-card">
-                    <h3>API & System Architecture</h3>
-                    <p>Designing RESTful APIs, <b>RAG workflows</b>, and microservices with attention to latency,
-                        security, and real-time messaging (<b>RabbitMQ</b>, <b>Pub-Sub</b>).</p>
+                    <h3>LLM Observability</h3>
+                    <p>LangSmith tracing, MLflow tracking, regression testing and performance benchmarking</p>
+                    <div class="prof-tags">
+                        <span class="prof-badge">LangSmith</span>
+                        <span class="prof-badge">MLflow</span>
+                        <span class="prof-badge">Eval</span>
+                        <span class="prof-badge">Tracing</span>
+                    </div>
                 </div>
                 <div class="proficiency-card">
-                    <h3>Database Management</h3>
-                    <p>Optimizing relational databases (<b>MySQL</b>, <b>Prisma ORM</b>) and NoSQL solutions
-                        (<b>MongoDB</b>, <b>Neo4j</b>) for scalability and efficient data retrieval.</p>
+                    <h3>Backend Systems</h3>
+                    <p>FastAPI, Node.js, Go microservices with async processing and event-driven architecture</p>
+                    <div class="prof-tags">
+                        <span class="prof-badge">FastAPI</span>
+                        <span class="prof-badge">Node.js</span>
+                        <span class="prof-badge">Go</span>
+                        <span class="prof-badge">Microservices</span>
+                        <span class="prof-badge">RabbitMQ</span>
+                    </div>
                 </div>
                 <div class="proficiency-card">
-                    <h3>AI & Automation</h3>
-                    <p>Integrating AI tools, <b>LangChain</b>, <b>LangGraph</b>, and workflow automation to build
-                        intelligent, context-aware applications.</p>
+                    <h3>Cloud & Infra</h3>
+                    <p>Azure, AWS, GCP (Vertex AI), Docker, CI/CD pipelines for scalable AI deployments</p>
+                    <div class="prof-tags">
+                        <span class="prof-badge">Azure</span>
+                        <span class="prof-badge">AWS</span>
+                        <span class="prof-badge">GCP</span>
+                        <span class="prof-badge">Docker</span>
+                        <span class="prof-badge">CI/CD</span>
+                    </div>
                 </div>
                 <div class="proficiency-card">
-                    <h3>Modern Frontend</h3>
-                    <p>Creating responsive, interactive SPAs with <b>React.js</b>, <b>TypeScript</b>, <b>Tailwind
-                            CSS</b>, and <b>Mantine</b> for clean and accessible user experiences.</p>
+                    <h3>Data & APIs</h3>
+                    <p>PostgreSQL, MongoDB, vector databases, low-latency API and AI-integrated system design</p>
+                    <div class="prof-tags">
+                        <span class="prof-badge">PostgreSQL</span>
+                        <span class="prof-badge">MongoDB</span>
+                        <span class="prof-badge">APIs</span>
+                        <span class="prof-badge">Vector DB</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="skills" class="section">
-        <div class="container">
-            <h2 class="section-title hidden-up" style="text-align:left;">Projects</h2>
-            <div class="case-studies-grid">
-                <div class="case-card">
-                    <h3>VidSage – AI-Powered Video Knowledge Platform</h3>
-                    <p>An LLM-powered application that utilizes RAG pipelines and prompt engineering to summarize videos
-                        and support context-aware Q&A. Integrated LangChain and Gemini API with a Python (FastAPI)
-                        backend and MongoDB.</p>
-                    <div class="case-meta"><span>Technologies & Tools</span><br>
-                        <span class="tech-pill">LangChain</span>
-                        <span class="tech-pill">Gemini API</span>
-                        <span class="tech-pill">Python</span>
-                        <span class="tech-pill">FastAPI</span>
-                        <span class="tech-pill">MongoDB</span>
-                        <span class="tech-pill">RAG</span>
-                    </div>
-                    <div class="case-meta project-links-bottom">
-                        <a href="https://vidsage-yt.web.app" target="_blank" rel="noopener" title="Live Demo"
-                            class="project-link-icon project-link-live"><i data-feather="external-link"></i></a>
-                        <a href="https://github.com/Thiwanka-Sandakalum/VidSage" target="_blank" rel="noopener"
-                            title="View Repo" class="project-link-icon project-link-github"><i
-                                data-feather="github"></i></a>
-                    </div>
+    <section id="projects" class="section">
+        <div class="container projects-showcase hidden-up">
+            <h2 class="section-title" style="text-align:left;">Projects</h2>
+            <div class="root">
+                <div class="top-bar" role="toolbar" aria-label="Project filters">
+                    <input class="search-box" id="projects-search" type="text" placeholder="Search projects..."
+                        aria-label="Search projects">
+                    <button class="filter-btn active" data-filter="all" type="button">All</button>
+                    <button class="filter-btn" data-filter="hero" type="button">Hero</button>
+                    <button class="filter-btn" data-filter="ai-ml" type="button">AI / ML</button>
+                    <button class="filter-btn" data-filter="fullstack" type="button">Full Stack</button>
+                    <button class="filter-btn" data-filter="backend" type="button">Backend</button>
+                    <button class="filter-btn" data-filter="cloud" type="button">Cloud</button>
+                    <button class="filter-btn" data-filter="infra" type="button">Infra</button>
                 </div>
-                <div class="case-card">
-                    <h3>FinVerse – Financial Marketplace</h3>
-                    <p>Built a scalable financial platform using React.js (TypeScript ecosystem) and Python. Focused on
-                        performance tuning, secure data handling, and optimizing user interactions through a responsive
-                        interface.</p>
-                    <div class="case-meta"><span>Technologies & Tools</span><br>
-                        <span class="tech-pill">React.js</span>
-                        <span class="tech-pill">Mantine</span>
-                        <span class="tech-pill">Express.js</span>
-                        <span class="tech-pill">Firebase</span>
-                        <span class="tech-pill">Azure API Management</span>
-                        <span class="tech-pill">Azure Container Apps</span>
-                        <span class="tech-pill">MySQL</span>
-                        <span class="tech-pill">Redis</span>
-                        <span class="tech-pill">Docker</span>
-                        <span class="tech-pill">Auth0</span>
-                    </div>
-                    <div class="case-meta project-links-bottom">
-                        <a href="https://finverselk.web.app" target="_blank" rel="noopener" title="Live Demo"
-                            class="project-link-icon project-link-live"><i data-feather="external-link"></i></a>
-                        <a href="https://github.com/Thiwanka-Sandakalum/FinVerse" target="_blank" rel="noopener"
-                            title="View Repo" class="project-link-icon project-link-github"><i
-                                data-feather="github"></i></a>
-                    </div>
-                </div>
-                <div class="case-card">
-                    <h3>Movie Downloader – Torrent-Based Movie Platform</h3>
-                    <p>A web application that allows users to download movies via torrent links, save them to their
-                        Google Drive, and track downloads; includes caching for faster access and an admin dashboard for
-                        managing content and users.</p>
-                    <div class="case-meta"><span>Technologies & Tools</span><br>
-                        <span class="tech-pill">Go (Gin)</span>
-                        <span class="tech-pill">React.js</span>
-                        <span class="tech-pill">Mantine</span>
-                        <span class="tech-pill">Clerk</span>
-                        <span class="tech-pill">Docker</span>
-                        <span class="tech-pill">Azure Container Apps</span>
-                        <span class="tech-pill">OpenAPI</span>
-                        <span class="tech-pill">Firebase</span>
-                    </div>
-                    <div class="case-meta project-links-bottom">
-                        <a href="https://github.com/Thiwanka-Sandakalum/torrent-downloader" target="_blank"
-                            rel="noopener" title="View Repo" class="project-link-icon project-link-github"><i
-                                data-feather="github"></i></a>
-                    </div>
-                </div>
+
+                <div class="proj-grid" id="projects-grid"></div>
+            </div>
+        </div>
+
+        <div class="modal-overlay" id="projects-overlay" aria-hidden="true">
+            <div class="modal" id="projects-modal" role="dialog" aria-modal="true"
+                aria-labelledby="projects-modal-title">
+                <button class="close-btn" id="projects-close" type="button"
+                    aria-label="Close project details">&times;</button>
+                <div class="modal-arch" id="projects-modal-arch"></div>
+                <div class="modal-body" id="projects-modal-body"></div>
             </div>
         </div>
     </section>
 
+    <!-- Lightbox -->
+    <div id="media-lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+        <button id="media-lightbox-close" type="button" aria-label="Close image viewer">&times;</button>
+        <button id="lb-prev" type="button" aria-label="Previous image">&#8249;</button>
+        <img id="media-lightbox-img" src="" alt="">
+        <button id="lb-next" type="button" aria-label="Next image">&#8250;</button>
+        <p id="media-lightbox-caption"></p>
+    </div>
+
+    <!-- Writing / Medium Articles -->
+    <section id="writing" class="section bg-darker">
+        <div class="container">
+            <div class="writing-header hidden-up">
+                <div class="writing-header-left">
+                    <h2 class="section-title" style="margin-bottom:0.25rem">Writing</h2>
+                    <p class="writing-subtitle">Technical deep-dives on AI engineering, systems design, and software
+                        craft</p>
+                </div>
+                <a href="https://medium.com/@thiwanka2002sandakalum" target="_blank" rel="noopener"
+                    class="writing-all-link">
+                    All articles on Medium
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="7" y1="17" x2="17" y2="7" />
+                        <polyline points="7 7 17 7 17 17" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="articles-grid hidden-up">
+
+                <a class="article-card"
+                    href="https://medium.com/@thiwanka2002sandakalum/i-upgraded-my-2024-rag-project-to-2026-production-standards-2110d9a36fb5"
+                    target="_blank" rel="noopener">
+                    <div class="article-card-top">
+                        <div class="article-tags">
+                            <span class="article-tag">RAG</span>
+                            <span class="article-tag">AI Engineering</span>
+                            <span class="article-tag">MLflow</span>
+                        </div>
+                        <span class="article-read-time">4 min read</span>
+                    </div>
+                    <h3 class="article-title">I Upgraded My 2024 RAG Project to 2026 Production Standards</h3>
+                    <p class="article-excerpt">How I transformed a working YouTube Q&A MVP into a measurable, observable
+                        production GenAI system — hybrid retrieval, reranking, RAGAS eval gates, and full request
+                        tracing.</p>
+                    <div class="article-footer">
+                        <span class="article-date">May 2026</span>
+                        <span class="article-arrow">Read →</span>
+                    </div>
+                </a>
+
+                <a class="article-card"
+                    href="https://medium.com/@thiwanka2002sandakalum/rabbitmq-in-microservices-building-a-real-backend-with-advanced-messaging-patterns-f186e26ff171"
+                    target="_blank" rel="noopener">
+                    <div class="article-card-top">
+                        <div class="article-tags">
+                            <span class="article-tag">RabbitMQ</span>
+                            <span class="article-tag">Microservices</span>
+                            <span class="article-tag">Backend</span>
+                        </div>
+                        <span class="article-read-time">8 min read</span>
+                    </div>
+                    <h3 class="article-title">RabbitMQ in Microservices — Building a Real Backend with Advanced
+                        Messaging Patterns</h3>
+                    <p class="article-excerpt">From simple queues to production-ready microservices architecture —
+                        dead-letter exchanges, consumer groups, retry strategies, and message routing patterns that
+                        actually hold under load.</p>
+                    <div class="article-footer">
+                        <span class="article-date">Jul 2025</span>
+                        <span class="article-arrow">Read →</span>
+                    </div>
+                </a>
+
+                <a class="article-card"
+                    href="https://medium.com/@thiwanka2002sandakalum/getting-started-with-rabbitmq-a-beginners-journey-bd93502e0b7d"
+                    target="_blank" rel="noopener">
+                    <div class="article-card-top">
+                        <div class="article-tags">
+                            <span class="article-tag">RabbitMQ</span>
+                            <span class="article-tag">Message Queues</span>
+                        </div>
+                        <span class="article-read-time">5 min read</span>
+                    </div>
+                    <h3 class="article-title">Getting Started with RabbitMQ — A Beginner's Journey</h3>
+                    <p class="article-excerpt">My hands-on experience building a message queue system from scratch —
+                        what queues, exchanges, and bindings actually are, and why async messaging changes how you think
+                        about service boundaries.</p>
+                    <div class="article-footer">
+                        <span class="article-date">Jul 2025</span>
+                        <span class="article-arrow">Read →</span>
+                    </div>
+                </a>
+
+                <a class="article-card"
+                    href="https://medium.com/@thiwanka2002sandakalum/how-we-ingested-a-university-handbook-into-a-knowledge-database-b7127b367d28"
+                    target="_blank" rel="noopener">
+                    <div class="article-card-top">
+                        <div class="article-tags">
+                            <span class="article-tag">RAG</span>
+                            <span class="article-tag">Knowledge Base</span>
+                        </div>
+                        <span class="article-read-time">6 min read</span>
+                    </div>
+                    <h3 class="article-title">How We Ingested a University Handbook into a Knowledge Database</h3>
+                    <p class="article-excerpt">A mini case study on chunking strategy, embedding pipeline design, and
+                        the retrieval trade-offs when the source document is a dense, semi-structured PDF handbook.</p>
+                    <div class="article-footer">
+                        <span class="article-date">Dec 2025</span>
+                        <span class="article-arrow">Read →</span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
 
     <section id="contact" class="section">
         <div class="container contact-container">
@@ -336,14 +535,11 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2023 Thiwanka Sandakalum. Built with simple code.</p>
+            <p>&copy; <span id="copyright-year"></span> Thiwanka Sandakalum. Built with simple code.</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
-    <script>
-        feather.replace(); // Initialize Icons
-    </script>
 </body>
 
 </html>

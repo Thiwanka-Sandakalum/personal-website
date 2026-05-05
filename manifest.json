@@ -1,0 +1,39 @@
+{
+    "name": "Thiwanka Sandakalum - AI Software Engineer",
+    "short_name": "Thiwanka S.",
+    "description": "Portfolio of Thiwanka Sandakalum, AI Software Engineer specializing in Full Stack & Backend development",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0a0a0a",
+    "theme_color": "#7f9cf5",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "business",
+        "productivity"
+    ],
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "Projects",
+            "short_name": "Projects",
+            "description": "View my projects",
+            "url": "/#projects",
+            "icons": []
+        },
+        {
+            "name": "Contact",
+            "short_name": "Contact",
+            "description": "Get in touch",
+            "url": "/#contact",
+            "icons": []
+        }
+    ]
+}
