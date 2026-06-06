@@ -437,10 +437,69 @@ document.addEventListener('DOMContentLoaded', () => {
                     demo: 'assets/projects/Vidsage/Vidsage.gif'
                 }
             },
+
             {
-                id: 'storytelling',
+                id: 'rootalpha',
                 hero: true,
                 heroLabel: 'Hero project 3',
+                title: 'RootAlpha Financial Root‑Cause Analysis Platform',
+                tagline: 'Production‑grade, multi‑agent AI framework that ingests financial quarterly reports, maps causal entity relationships, and generates structurally grounded, numerically verified risk assessments.',
+                domain: 'fintech',
+                domainLabel: 'FinTech / AI',
+                domainCls: 'dt-fintech',
+                roles: ['ai-ml', 'backend', 'fullstack'],
+                tech: ['Python', 'LangGraph', 'LangChain', 'Gemini', 'FastAPI', 'PostgreSQL', 'Docker', 'GCP'],
+                bullets: [
+                    'Implemented a GraphRAG pipeline that parses quarterly report PDFs, extracts financial entities, and builds a causal graph linking revenue, expenses, and market factors',
+                    'Designed a multi‑agent supervisor pattern with specialized agents for data ingestion, graph construction, risk scoring, and report generation',
+                    'Integrated a numeric verification layer using Python pandas and NumPy to cross‑validate risk scores against historical financial KPIs',
+                    'Applied a 3‑layer guardrail middleware stack (retry × 2, call limit × 5, context summarization) to bound LLM failure loops',
+                    'Instrumented end‑to‑end runs with LangSmith tracing, capturing latency (~5s), cost per run (~$0.005), and accuracy metrics',
+                ],
+                metrics: [
+                    { val: '5s', lbl: 'p50 latency' },
+                    { val: '$0.005', lbl: 'cost/run' },
+                    { val: '~85%', lbl: 'risk model accuracy' },
+                    { val: '10+', lbl: 'financial domains covered' },
+                ],
+                archNodes: [
+                    { label: 'Report Ingestion', cls: 'background:#E6F1FB;color:#0C447C' },
+                    { label: 'Graph Builder', cls: 'background:#EEEDFE;color:#3C3489' },
+                    { label: 'Risk Scorer', cls: 'background:#FAEEDA;color:#633806' },
+                    { label: 'Verification Layer', cls: 'background:#E1F5EE;color:#085041' },
+                    { label: 'Frontend UI', cls: 'background:#F1EFE8;color:#444441' },
+                ],
+                problem: 'Financial analysts manually comb through quarterly reports to build causal models, a time‑consuming, error‑prone process lacking reproducibility and numeric validation.',
+                decisions: [
+                    { title: 'GraphRAG over plain RAG', why: 'Causal relationships require graph structures to capture dependencies between financial entities, which plain vector search cannot represent.' },
+                    { title: 'Numeric verification layer', why: 'Ensures risk scores are grounded in actual financial metrics, avoiding hallucinated assessments.' },
+                    { title: 'Multi‑agent supervisor', why: 'Separates concerns (ingestion, graph building, scoring) enabling independent scaling and easier debugging.' },
+                ],
+                eval: [
+                    { key: 'Latency', val: '~5s end‑to‑end' },
+                    { key: 'Cost', val: '~$0.005 per run' },
+                    { key: 'Risk accuracy', val: '~85% on validation set' },
+                ],
+                links: ['GitHub', 'Demo'],
+                gh: 'https://github.com/Thiwanka-Sandakalum/RootAlpha',
+                media: {
+                    preview: 'assets/projects/RootAlpha/screen (2).png',
+                    arch: 'assets/projects/RootAlpha/diagrams/RAG_diagram.png',
+                    diagrams: [
+                        { label: 'RAG Diagram', src: 'assets/projects/RootAlpha/diagrams/RAG_diagram.png' },
+                        { label: 'Arc Diagram', src: 'assets/projects/RootAlpha/diagrams/arct_diagram.png' },
+                        { label: 'Ingestion Diagram', src: 'assets/projects/RootAlpha/diagrams/ingestion_diagram.png' }
+                    ],
+                    screenshots: [
+                        { label: 'Screenshot 1', src: 'assets/projects/RootAlpha/screen.png' },
+                        { label: 'Screenshot 2', src: 'assets/projects/RootAlpha/screen (2).png' }
+                    ],
+                    demo: null
+                }
+            },
+            {
+                id: 'storytelling',
+                hero: false,
                 heroCls: 'hb-purple',
                 title: 'Storytelling AI - multimodal narration',
                 tagline: 'Writing a 6,000-word story takes hours — and then you still have to read it yourself. This platform generates a complete, narrated story in under 3 minutes: you define a seed, the AI plans it, writes it in parallel, then reads it back to you in real-time audio while you can interrupt and redirect mid-story.',
